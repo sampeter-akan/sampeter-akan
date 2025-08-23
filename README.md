@@ -1,15 +1,17 @@
 # 👋 Hi, I'm Samuel Peter
 
-**Infrastructure Operations Specialist | Power Grid → Cloud DevOps | ITSM ✓ Agile ✓ → Cloud → K8s → ML | Global Opportunities**
+**Infrastructure Operations Specialist | Power Grid → Cloud DevOps | MSc DevOps & Cloud Computing**
 
-I'm currently pursuing an MSc in DevOps and Cloud Computing, with a strong foundation in infrastructure operations and a growing passion for cloud-native technologies. My journey bridges traditional power grid systems with modern DevOps practices—driven by automation, scalability, and innovation.
+With 19+ years in electric power system operations, I’ve transitioned from managing high-voltage transmission networks to architecting cloud-native infrastructure solutions. My journey bridges traditional grid reliability with modern DevOps practices—where uptime, automation, and innovation converge.
+
+Currently pursuing an MSc in DevOps and Cloud Computing, I’m focused on building smart grid monitoring platforms using Infrastructure as Code, Kubernetes, and CI/CD pipelines. My portfolio showcases how operational excellence meets technical innovation.
 
 ---
 
 ## 💼 Featured Projects
 
 ### 💰 Future Value Calculator
-A web app that calculates the future value of monthly payments over time.
+A web app that calculates the future value of monthly payments.
 - 🔧 Tech: HTML, CSS, JavaScript
 - 📂 [View Repository](https://github.com/sampeter-akan/future-value-calculator)
 - 🌐 [Live Demo](https://sampeter-akan.github.io/future-value-calculator)
@@ -17,15 +19,16 @@ A web app that calculates the future value of monthly payments over time.
 ---
 
 ## 🧠 Skills & Tools
-- **Cloud & DevOps**: AWS, Azure, CI/CD, Docker, Kubernetes
+- **Cloud & DevOps**: AWS, Azure, Kubernetes, Terraform, Jenkins, CI/CD
 - **Infrastructure**: ITSM, Agile, Monitoring & Automation
-- **Frontend**: HTML, CSS, JavaScript
-- **Soft Skills**: Problem-solving, adaptability, global collaboration
+- **Programming**: Bash, Python, Java
+- **Systems Engineering**: Bridging OT & IT domains
 
 ---
 
-## 🎓 Currently Studying
-- MSc DevOps and Cloud Computing @ IU International University
+## 🎓 Education
+- BSc Computing & IT – UK (2020)
+- MSc DevOps & Cloud Computing – Germany (Ongoing)
 
 ---
 
@@ -33,8 +36,4 @@ A web app that calculates the future value of monthly payments over time.
 - 📧 Email: samuelakanimo@hotmail.com
 - 🔗 LinkedIn: [linkedin.com/in/samuel-peter-5117223b](https://www.linkedin.com/in/samuel-peter-5117223b)
 
----
-
-> “From grid to cloud, I build systems that scale, adapt, and empower.”
-
-
+> “Let’s build resilient systems at scale—where uptime, efficiency, and innovation intersect.”
