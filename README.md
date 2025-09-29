@@ -27,8 +27,8 @@ A web app that calculates the future value of monthly payments.
 ---
 
 ## 🎓 Education
-- BSc Computing & IT – UK (2020)
-- MSc DevOps & Cloud Computing – Germany (Ongoing)
+- BSc Computing & IT – University of Derby, England, UK (2020) - First Class Honours
+- MSc DevOps & Cloud Computing – IU International University of Applied Sciences, Germany (Ongoing)
 
 ---
 
