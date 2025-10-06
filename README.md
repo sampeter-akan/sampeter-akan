@@ -8,15 +8,17 @@ Currently pursuing an MSc in DevOps and Cloud Computing (Current GPA: 80.5%), I'
 
 ---
 
-## 💼 Featured Projects - Enterprise CI/CD Pipeline
+## 💼 Featured Projects 
+
+### 💳 Credit Loan Calculator - Enterprise CI/CD Pipeline
 ### 🚀 MSc DevOps Module Project | Grade: 96%
 
-### 💳 Credit Loan Calculator  
 A full-stack web application demonstrating enterprise-grade DevOps practices with complete CI/CD automation.developed as part of my MSc DevOps coursework (5 ECTS credits).  
 * 🔧 **Tech Stack**: Java, Maven, Jenkins, Selenium, JUnit, GitHub Actions, Dependabot
 * 🔄 **DevOps**: Automated build/test/deploy pipeline, security scanning, structured logging
-* 🎯 **Methodology**: Agile/Scrum with Jira, AI-assisted development (GitHub Copilot) 
+* 🎯 **Methodology**: Agile/Scrum with Jira, AI-assisted development (GitHub Copilot for code suggestions and refactoring) 
 * 📂 [View Repository](https://github.com/sampeter-akan/credit-loan-calculator)
+* 🌐 Modern Web UI: HTML, CSS, JavaScript  
   
 * 📊 **Key Features**:
   - Jenkins CI/CD pipeline with Maven
