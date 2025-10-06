@@ -10,6 +10,17 @@ Currently pursuing an MSc in DevOps and Cloud Computing, I’m focused on buildi
 
 ## 💼 Featured Projects
 
+### 💳 Credit Loan Calculator  
+A DevOps-driven web application for calculating loan repayments, developed as part of my MSc DevOps coursework (5 ECTS credits).  
+* 🌐 Modern Web UI: HTML, CSS, JavaScript  
+* 🚀 CI/CD Pipeline: Jenkins & Maven for automated build, test, and deployment  
+* 🧪 Testing: JUnit (unit) & Selenium (UI) integrated into pipeline  
+* 🔐 Security: Secure coding, secrets management, private repo, and dependency scanning (Dependabot)  
+* 📊 Monitoring: Application & pipeline logging for traceability  
+* 🤖 AI-Powered Development: GitHub Copilot for code suggestions and refactoring  
+* 🔧 Tech Stack: HTML, CSS, JavaScript, Maven, Jenkins, Selenium, JUnit, GitHub Actions  
+* 📂 [View Repository](https://github.com/sampeter-akan/credit-loan-calculator)
+
 ### 💰 Future Value Calculator
 A web app that calculates the future value of monthly payments.
 - 🔧 Tech: HTML, CSS, JavaScript
@@ -36,4 +47,4 @@ A web app that calculates the future value of monthly payments.
 - 📧 Email: samuelakanimo@hotmail.com
 - 🔗 LinkedIn: [linkedin.com/in/samuel-peter-5117223b](https://www.linkedin.com/in/samuel-peter-5117223b)
 
-> “Let’s build resilient systems at scale—where uptime, efficiency, and innovation intersect.”
+> Let’s build resilient systems at scale—where uptime, efficiency, and innovation intersect.
