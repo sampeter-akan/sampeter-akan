@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Samuel Peter
 
-**Infrastructure Operations Specialist | Power Grid → Cloud DevOps | MSc DevOps & Cloud Computing**
+**Currently: Principal Manager at Transmission Company of Nigeria | Transitioning to DevOps, Backend Engineering, and Customer Solutions Engineer roles**
 
 With 19+ years in electric power system operations, I’ve transitioned from managing high-voltage transmission networks to architecting cloud-native infrastructure solutions. My journey bridges traditional grid reliability with modern DevOps practices—where uptime, automation, and innovation converge.
 
