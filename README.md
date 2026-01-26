@@ -8,9 +8,9 @@ Currently pursuing an MSc in DevOps and Cloud Computing (Current GPA: 80.5%), I'
 
 ---
 
-## 💼 Featured Projects 
+# 💼 Featured Projects 
 
-# 🎬 Movies API — Microservices Research & Development Project
+##🎬 Movies API — Microservices Research & Development Project
 
 ## Overview
 
@@ -133,7 +133,7 @@ Through this project, I've demonstrated competency in:
 ## 📄 Full Research Proposal
 See `appendix/research_proposal_updated.md` for complete methodology, design rationale, and evaluation framework.
 
-### 💳 Credit Loan Calculator - Enterprise CI/CD Pipeline
+## 💳 Credit Loan Calculator - Enterprise CI/CD Pipeline
 ### 🚀 MSc DevOps Module Project | Grade: 96%
 
 A full-stack web application demonstrating enterprise-grade DevOps practices with complete CI/CD automation.developed as part of my MSc DevOps coursework (5 ECTS credits).  
@@ -150,7 +150,7 @@ A full-stack web application demonstrating enterprise-grade DevOps practices wit
   - SLF4J/Logback structured logging
   - Automated deployment workflow
 
-### 💰 Future Value Calculator
+##💰 Future Value Calculator
 A web app that calculates the future value of monthly payments.
 - 🔧 Tech: HTML, CSS, JavaScript
 - 📂 [View Repository](https://github.com/sampeter-akan/future-value-calculator)
