@@ -221,6 +221,7 @@ Let’s build resilient systems at scale—where uptime, efficiency, and innovat
 
 ### 🏆 Recent Achievements
 
+* ⭐ Designed and developed a microservice-based REST API following Contract-first develoment principles
 * ⭐ Achieved 96% in MSc DevOps module
 * ⭐ Built enterprise CI/CD pipeline with Jenkins
 * ⭐ Completed ITSM and Agile Software Development courses
