@@ -10,6 +10,129 @@ Currently pursuing an MSc in DevOps and Cloud Computing (Current GPA: 80.5%), I'
 
 ## 💼 Featured Projects 
 
+# 🎬 Movies API — Microservices Research & Development Project
+
+## Overview
+
+I designed and developed a **contract-first microservice-based Movies API** as a research proposal, 
+demonstrating end-to-end API design, testing, and reproducible performance evaluation.
+
+This project showcases modern software engineering practices including **OpenAPI specification**, 
+**automated testing**, **CI/CD pipelines**, and **performance analysis**.
+
+## Key Skills Demonstrated
+
+### Architecture & Design
+- ✅ **Microservices Architecture** — Stateless service design with pluggable persistence adapters
+- ✅ **Contract-First Development** — OpenAPI v3 specification as single source of truth
+- ✅ **REST API Design** — RESTful endpoints with RBAC and proper error handling
+- ✅ **CRUD Operations** — Full Create, Read, Update, Delete functionality with validation
+
+### Technology Stack
+- **Runtime:** Node.js + Express
+- **Language:** TypeScript (optional, for maintainability)
+- **Testing:** Jest, Supertest (unit & integration tests)
+- **Contract Validation:** Spectral (OpenAPI linting)
+- **Performance Testing:** k6 (load testing & scenario scripting)
+- **API Documentation:** Redoc/Swagger UI
+- **CI/CD:** GitHub Actions
+- **Development Environment:** VS Code + GitHub Copilot
+
+### Quality Assurance
+- Unit tests (service logic isolation)
+- Integration tests (HTTP routes & middleware)
+- Contract tests (OpenAPI compliance)
+- Performance testing (latency quantiles: P50, P95, P99)
+- Reproducible test artifacts with SHA256 checksums
+
+### Development Practices
+- **Code Suggestions & Refactoring** via GitHub Copilot
+- Traceability matrix (User Stories → Tests → Artifacts)
+- Acceptance criteria mapping (US-01 through US-07)
+- Environment metadata recording for reproducibility
+- Comprehensive documentation & reproducibility instructions
+
+## Key Deliverables
+
+✓ **OpenAPI v3 Contract** — `appendix/openapi.yml` (canonical specification)  
+✓ **Reference Implementation** — Node.js/Express mock server with RBAC  
+✓ **Automated Test Suite** — Unit, integration, and contract tests  
+✓ **k6 Performance Scripts** — Load testing with JSON/HTML/PNG artifacts  
+✓ **Traceability Documentation** — Requirements → Tests → Artifacts mapping  
+✓ **CI/CD Pipeline** — GitHub Actions for linting, testing, artifact generation  
+
+## Performance Baselines
+
+- **Latency (P50):** < 100ms
+- **Latency (P95):** < 500ms
+- **Throughput:** Scalable horizontal deployment
+- **Error Handling:** Consistent machine-readable error responses
+- **Availability:** Health and readiness endpoints
+
+## Non-Functional Requirements Addressed
+
+✓ Performance & Scalability  
+✓ Reliability & Fault Tolerance  
+✓ Security & RBAC  
+✓ Observability (structured JSON logs + metrics)  
+✓ Testability & Reproducibility  
+
+## Repository Structure
+
+movies-api/
+├── src/
+│ ├── controllers/ (HTTP route handlers)
+│ ├── services/ (business logic)
+│ └── models/ (data schemas)
+├── tests/
+│ ├── unit/ (Jest unit tests)
+│ ├── integration/ (Supertest HTTP tests)
+│ └── contract/ (OpenAPI compliance tests)
+├── appendix/
+│ ├── openapi.yml (authoritative API contract)
+│ ├── load-tests/ (k6 scripts & artifacts)
+│ └── diagrams/ (PlantUML: API surface, data model, sequence)
+└── .github/workflows/ (CI/CD automation)
+
+
+## How This Project Demonstrates Professional Skills
+
+1. **Software Engineering** — Contract-first design, SOLID principles, clean architecture
+2. **API Development** — RESTful design, OpenAPI specification, versioning strategies
+3. **Testing** — TDD mindset, comprehensive test coverage, automated CI gates
+4. **DevOps/CI-CD** — GitHub Actions workflows, artifact management, reproducibility
+5. **Performance Engineering** — k6 load testing, latency analysis, scalability assessment
+6. **Documentation** — Technical writing, traceability matrices, reproducibility instructions
+7. **Development Tools** — VS Code, GitHub Copilot for code suggestions, Git workflows
+
+## Development Environment Highlights
+
+**VS Code + GitHub Copilot Integration:**
+- Real-time code suggestions for service implementations
+- Automated refactoring recommendations
+- Unit test generation assistance
+- Documentation and comment auto-completion
+
+This integration accelerated development velocity while maintaining code quality through intelligent suggestions and context-aware completions.
+
+## Learning Outcomes
+
+Through this project, I've demonstrated competency in:
+- Designing and implementing production-ready microservices
+- Writing testable, maintainable code with TypeScript
+- Building comprehensive test suites (unit, integration, contract)
+- Conducting reproducible performance evaluations
+- Automating quality checks via CI/CD pipelines
+- Documenting complex technical work for stakeholders
+
+---
+
+## 📂 Repository
+**[GitHub: sampeter-akan/movies-api](https://github.com/sampeter-akan/movies-api)**
+
+## 📄 Full Research Proposal
+See `appendix/research_proposal_updated.md` for complete methodology, design rationale, and evaluation framework.
+
 ### 💳 Credit Loan Calculator - Enterprise CI/CD Pipeline
 ### 🚀 MSc DevOps Module Project | Grade: 96%
 
