@@ -10,7 +10,7 @@ Currently pursuing an MSc in DevOps and Cloud Computing (Current GPA: 80.5%), I'
 
 # 💼 Featured Projects 
 
-##🎬 Movies API — Microservices Research & Development Project
+## 🎬 Movies API — Microservices Research & Development Project
 
 ## Overview
 
