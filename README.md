@@ -10,6 +10,48 @@ Currently pursuing an MSc in DevOps and Cloud Computing (Current GPA: 80.5%), I'
 
 # 💼 Featured Projects 
 
+## Advanced Research Methods (MSc) - Research Proposal
+### An Empirical Study of IEEE 802.11 and WPA3 Standards Adoption and Feature Prioritization in Campus and Public Hotspot Deployments
+
+**Grade:** 90%  
+**Course:** Advanced Research Methods (5 ECTS), MSc DevOps & Cloud Computing  
+**Institution:** IU International University of Applied Sciences  
+**Date:** January 2026
+
+### Project Overview
+This project presents a research proposal focused on a practical infrastructure question:  
+**Which Wi-Fi features should campus and public hotspot operators prioritize first when budgets are limited?**
+
+The study is designed to evaluate measurable user outcomes, including:
+- Faster file uploads in congested environments
+- Improved video-call continuity during roaming
+- Better resilience against common wireless security attacks
+
+### What I Designed
+- A multi-environment testbed strategy for:
+  - Dense campus usage scenarios
+  - Multi-AP roaming across buildings
+  - Public hotspot security testing
+- A standards-aligned evaluation framework covering:
+  - IEEE 802.11ax/11be feature priorities
+  - IEEE 802.11r/k/v roaming behavior
+  - WPA2 vs WPA3 security posture
+- A statistical analysis plan using:
+  - Paired comparison testing
+  - Effect-size interpretation
+  - Confidence-interval reporting for decision support
+
+### Key Deliverable
+A **prioritized deployment checklist** for IT operators and decision-makers, translating standards-level features into practical upgrade actions and ROI-oriented recommendations.
+
+### Skills Demonstrated
+Research design, empirical methodology, infrastructure performance analysis, wireless standards interpretation, security evaluation planning, and evidence-based technical decision support.
+
+https://img.shields.io/badge/Project%20Type-Research%20Proposal-blue  
+https://img.shields.io/badge/Grade-90%25-brightgreen  
+https://img.shields.io/badge/Focus-Wi--Fi%206%20%7C%20802.11r/k/v%20%7C%20WPA3-orange  
+https://img.shields.io/badge/Methods-Empirical%20Design%20%7C%20Statistical%20Analysis-lightgrey
+
 ## 🎬 Movies API — Microservices Research & Development Project
 
 ## Overview
