@@ -47,10 +47,6 @@ A **prioritized deployment checklist** for IT operators and decision-makers, tra
 ### Skills Demonstrated
 Research design, empirical methodology, infrastructure performance analysis, wireless standards interpretation, security evaluation planning, and evidence-based technical decision support.
 
-https://img.shields.io/badge/Project%20Type-Research%20Proposal-blue  
-https://img.shields.io/badge/Grade-90%25-brightgreen  
-https://img.shields.io/badge/Focus-Wi--Fi%206%20%7C%20802.11r/k/v%20%7C%20WPA3-orange  
-https://img.shields.io/badge/Methods-Empirical%20Design%20%7C%20Statistical%20Analysis-lightgrey
 
 ## 🎬 Movies API — Microservices Research & Development Project
 
