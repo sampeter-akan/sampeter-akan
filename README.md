@@ -8,202 +8,77 @@ Currently pursuing an MSc in DevOps and Cloud Computing (Current GPA: 80.5%), I'
 
 ---
 
-# 💼 Featured Projects 
+## 💼 Featured Projects
 
-## 🎬 Movies API — Microservices Research & Development Project
+### 🎬 Movies API — Microservices Research & Development Project
+**MSc DevOps & Cloud Computing Coursework**
 
-## Overview
+I designed and developed a **contract-first microservices-based Movies API** to demonstrate end-to-end API engineering, automated testing, and reproducible performance evaluation.
 
-I designed and developed a **contract-first microservice-based Movies API** as a research proposal, 
-demonstrating end-to-end API design, testing, and reproducible performance evaluation.
+**Key Highlights:**
+- OpenAPI v3 contract-first design with full CRUD, RBAC, and error handling
+- Comprehensive testing (unit, integration, contract) + k6 load testing
+- GitHub Actions CI/CD pipeline with reproducible artifacts
+- Performance baselines (P50 < 100ms, P95 < 500ms)
 
-This project showcases modern software engineering practices including **OpenAPI specification**, 
-**automated testing**, **CI/CD pipelines**, and **performance analysis**.
+**Skills Demonstrated:** Microservices architecture, OpenAPI specification, performance engineering, CI/CD, traceability & documentation.
 
-## Key Skills Demonstrated
-
-### Architecture & Design
-- ✅ **Microservices Architecture** — Stateless service design with pluggable persistence adapters
-- ✅ **Contract-First Development** — OpenAPI v3 specification as single source of truth
-- ✅ **REST API Design** — RESTful endpoints with RBAC and proper error handling
-- ✅ **CRUD Operations** — Full Create, Read, Update, Delete functionality with validation
-
-### Technology Stack
-- **Runtime:** Node.js + Express
-- **Language:** TypeScript (optional, for maintainability)
-- **Testing:** Jest, Supertest (unit & integration tests)
-- **Contract Validation:** Spectral (OpenAPI linting)
-- **Performance Testing:** k6 (load testing & scenario scripting)
-- **API Documentation:** Redoc/Swagger UI
-- **CI/CD:** GitHub Actions
-- **Development Environment:** VS Code + GitHub Copilot
-
-### Quality Assurance
-- Unit tests (service logic isolation)
-- Integration tests (HTTP routes & middleware)
-- Contract tests (OpenAPI compliance)
-- Performance testing (latency quantiles: P50, P95, P99)
-- Reproducible test artifacts with SHA256 checksums
-
-### Development Practices
-- **Code Suggestions & Refactoring** via GitHub Copilot
-- Traceability matrix (User Stories → Tests → Artifacts)
-- Acceptance criteria mapping (US-01 through US-07)
-- Environment metadata recording for reproducibility
-- Comprehensive documentation & reproducibility instructions
-
-## Key Deliverables
-
-✓ **OpenAPI v3 Contract** — `appendix/openapi.yml` (canonical specification)  
-✓ **Reference Implementation** — Node.js/Express mock server with RBAC  
-✓ **Automated Test Suite** — Unit, integration, and contract tests  
-✓ **k6 Performance Scripts** — Load testing with JSON/HTML/PNG artifacts  
-✓ **Traceability Documentation** — Requirements → Tests → Artifacts mapping  
-✓ **CI/CD Pipeline** — GitHub Actions for linting, testing, artifact generation  
-
-## Performance Baselines
-
-- **Latency (P50):** < 100ms
-- **Latency (P95):** < 500ms
-- **Throughput:** Scalable horizontal deployment
-- **Error Handling:** Consistent machine-readable error responses
-- **Availability:** Health and readiness endpoints
-
-## Non-Functional Requirements Addressed
-
-✓ Performance & Scalability  
-✓ Reliability & Fault Tolerance  
-✓ Security & RBAC  
-✓ Observability (structured JSON logs + metrics)  
-✓ Testability & Reproducibility  
-
-## Repository Structure
-
-movies-api/
-├── src/
-│ ├── controllers/ (HTTP route handlers)
-│ ├── services/ (business logic)
-│ └── models/ (data schemas)
-├── tests/
-│ ├── unit/ (Jest unit tests)
-│ ├── integration/ (Supertest HTTP tests)
-│ └── contract/ (OpenAPI compliance tests)
-├── appendix/
-│ ├── openapi.yml (authoritative API contract)
-│ ├── load-tests/ (k6 scripts & artifacts)
-│ └── diagrams/ (PlantUML: API surface, data model, sequence)
-└── .github/workflows/ (CI/CD automation)
-
-## How This Project Demonstrates Professional Skills
-
-1. **Software Engineering** — Contract-first design, SOLID principles, clean architecture
-2. **API Development** — RESTful design, OpenAPI specification, versioning strategies
-3. **Testing** — TDD mindset, comprehensive test coverage, automated CI gates
-4. **DevOps/CI-CD** — GitHub Actions workflows, artifact management, reproducibility
-5. **Performance Engineering** — k6 load testing, latency analysis, scalability assessment
-6. **Documentation** — Technical writing, traceability matrices, reproducibility instructions
-7. **Development Tools** — VS Code, GitHub Copilot for code suggestions, Git workflows
-
-## Development Environment Highlights
-
-**VS Code + GitHub Copilot Integration:**
-- Real-time code suggestions for service implementations
-- Automated refactoring recommendations
-- Unit test generation assistance
-- Documentation and comment auto-completion
-
-This integration accelerated development velocity while maintaining code quality through intelligent suggestions and context-aware completions.
-
-## Learning Outcomes
-
-Through this project, I've demonstrated competency in:
-- Designing and implementing production-ready microservices
-- Writing testable, maintainable code with TypeScript
-- Building comprehensive test suites (unit, integration, contract)
-- Conducting reproducible performance evaluations
-- Automating quality checks via CI/CD pipelines
-- Documenting complex technical work for stakeholders
+📂 **[View Repository](https://github.com/sampeter-akan/movies-api)**
 
 ---
 
-## 📂 Repository
-**[GitHub: sampeter-akan/movies-api](https://github.com/sampeter-akan/movies-api)**
+### 🚀 Credit Loan Calculator — Enterprise CI/CD Pipeline
+**MSc DevOps Module | Grade: 96% (Distinction)**
 
-## 📄 Full Research Proposal
-See `appendix/research_proposal_updated.md` for complete methodology, design rationale, and evaluation framework.
+I built a full-stack web application with a complete enterprise-grade CI/CD pipeline as part of my MSc DevOps coursework (5 ECTS).
 
-## 💳 Credit Loan Calculator - Enterprise CI/CD Pipeline
-### 🚀 MSc DevOps Module Project | Grade: 96%
+**Key Highlights:**
+- Automated build, test, and deploy using Jenkins, Maven, Selenium, JUnit, and GitHub Actions
+- Security scanning with Dependabot and structured logging (SLF4J/Logback)
+- Agile/Scrum methodology with Jira + AI-assisted development (GitHub Copilot)
 
-A full-stack web application demonstrating enterprise-grade DevOps practices with complete CI/CD automation.developed as part of my MSc DevOps coursework (5 ECTS credits).  
-* 🔧 **Tech Stack**: Java, Maven, Jenkins, Selenium, JUnit, GitHub Actions, Dependabot
-* 🔄 **DevOps**: Automated build/test/deploy pipeline, security scanning, structured logging
-* 🎯 **Methodology**: Agile/Scrum with Jira, AI-assisted development (GitHub Copilot for code suggestions and refactoring) 
-* 📂 [View Repository](https://github.com/sampeter-akan/credit-loan-calculator)
-* 🌐 Modern Web UI: HTML, CSS, JavaScript  
-  
-* 📊 **Key Features**:
-  - Jenkins CI/CD pipeline with Maven
-  - Selenium WebDriver + JUnit automated testing
-  - Dependabot security scanning
-  - SLF4J/Logback structured logging
-  - Automated deployment workflow
+**Skills Demonstrated:** CI/CD orchestration, automated testing, security practices, DevOps tooling, and reproducible pipelines.
 
-## 🎓📶 Advanced Research Methods (MSc) — Research Proposal
-🔐 An Empirical Study of IEEE 802.11 and WPA3 Adoption Priorities in Campus & Public Wi-Fi
-
-🏆 **Grade: 90%**  
-📘 **Course:** Advanced Research Methods (5 ECTS), MSc DevOps & Cloud Computing  
-🏫 **Institution:** IU International University of Applied Sciences  
-📅 **Date:** January 2026  
-🔗 **Repository:** [empirical_research_proposal_paper](https://github.com/sampeter-akan/empirical_research_proposal_paper)
-
-### 🌍 Why This Project Matters
-Campus and public Wi-Fi operators often face a difficult question: **Which upgrades should be prioritized first when budget is limited?**
-
-This research proposal addresses that challenge with an evidence-based research design focused on **reliability**, **mobility**, and **security** outcomes.
-
-### 🧪 Research Focus
-- ⚡ **Performance** in dense environments (upload speed and connection stability)
-- 🚶 **Roaming continuity** across multi-AP networks (video-call resilience)
-- 🛡️ **Security hardening** (WPA2 vs WPA3 and management-frame protection)
-
-### 🎯 Key Outcome
-A practical, priority-ordered deployment roadmap that translates Wi-Fi standards into implementable upgrade actions for IT operators and decision-makers.
-
-### 🧠 Skills Demonstrated
-- Research design & empirical methodology  
-- Infrastructure performance analysis  
-- Wireless standards evaluation (IEEE 802.11 family)  
-- Security assessment planning (WPA3 features)  
-- Evidence-based technical decision support  
-
-**Full Proposal:** Available in the repository as PDF (`docs/DLMARM01-01-ARM2.pdf`) along with detailed methodology and findings.
-
-##💰 Future Value Calculator
-A web app that calculates the future value of monthly payments.
-- 🔧 Tech: HTML, CSS, JavaScript
-- 📂 [View Repository](https://github.com/sampeter-akan/future-value-calculator)
-- 🌐 [Live Demo](https://sampeter-akan.github.io/future-value-calculator)
+📂 **[View Repository](https://github.com/sampeter-akan/credit-loan-calculator)**
 
 ---
 
-## 🧠 Skills & Tools
+### 🎓📶 Advanced Research Methods — Distinguished Research Proposal
+🔐 **An Empirical Study of IEEE 802.11 & WPA3 Adoption Gaps and Feature Prioritization in Campus & Public Wi-Fi Hotspots**
 
-* AWS, Azure, Kubernetes, Terraform, Docker
-* Jenkins, Maven, GitHub Actions, CI/CD Pipelines
-* Infrastructure as Code, Container Orchestration
+**MSc Course | Grade: 90% (Distinction)** – Advanced Research Methods (5 ECTS)
 
-**Software Engineering**
-* Java, Python, Bash, JavaScript
-* Selenium WebDriver, JUnit, Test Automation
-* Git, GitHub, Version Control
+Campus and public Wi-Fi operators often run mixed legacy deployments and must prioritize upgrades under tight budgets.  
 
-**Infrastructure & Operations**
-* ITSM (78.8%), Agile/Scrum (66.6%), DevOps (96%)
-* Critical Infrastructure Operations
-* Monitoring, Logging, Security Best Practices
-* Bridging OT (Operational Technology) & IT domains
+I designed an empirical research proposal to deliver **evidence-based prioritization** of IEEE 802.11 features and WPA3 capabilities, focusing on real-world performance, mobility, and security in dense and multi-AP environments.
+
+**Research Scope:**
+- ⚡ Performance benchmarking in high-density scenarios (throughput & stability)
+- 🚶 Roaming & handover resilience for latency-sensitive apps (video calls, VoIP)
+- 🛡️ Security evaluation — WPA2-to-WPA3 migration, Protected Management Frames, SAE authentication
+
+**Key Deliverable:**  
+A **prioritized deployment roadmap** with staged recommendations and practical guidance for secure cloud-edge networking and zero-trust access.
+
+**Skills Demonstrated:**
+- Evidence-based decision-making under constraints
+- Empirical research design and quantitative testbed methodology
+- Wireless standards evaluation (IEEE 802.11 family & WPA3)
+- Infrastructure performance, reliability & security assessment
+
+**Why this stands out:** Most DevOps candidates can build pipelines. Very few can back architecture and security choices with rigorous, standards-driven empirical research like this.
+
+📂 **[View Repository](https://github.com/sampeter-akan/empirical_research_proposal_paper)**  
+📄 **[Full PDF Proposal](https://github.com/sampeter-akan/empirical_research_proposal_paper/blob/main/docs/DLMARM01-01-ARM2.pdf)**
+
+---
+
+### 💰 Future Value Calculator
+A clean web application for calculating the future value of monthly investments.
+
+**Tech:** HTML, CSS, JavaScript  
+📂 **[View Repository](https://github.com/sampeter-akan/future-value-calculator)**  
+🌐 **[Live Demo](https://sampeter-akan.github.io/future-value-calculator)**
 
 ---
 
