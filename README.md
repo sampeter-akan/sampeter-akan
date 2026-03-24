@@ -1,10 +1,15 @@
-# 👋 Hi, I'm Samuel Peter
+# Samuel Peter – DevOps & Cloud Engineer
 
-**Currently: Principal Manager at Transmission Company of Nigeria | Transitioning to DevOps, Backend Engineering, and Customer Solutions Engineer roles**
+**Senior Infrastructure Professional transitioning to DevOps & Cloud Computing**
 
-With 19+ years in electric power system operations, I’ve transitioned from managing high-voltage transmission networks to architecting cloud-native infrastructure solutions. My journey bridges traditional grid reliability with modern DevOps practices—where uptime, automation, and innovation converge.
+With over **19 years** as Principal Manager in critical national infrastructure at the Transmission Company of Nigeria, I bring deep expertise in high-reliability systems, operational excellence, and secure network environments.  
 
-Currently pursuing an MSc in DevOps and Cloud Computing (Current GPA: 80.5%), I'm building production-ready applications with enterprise-grade CI/CD pipelines, automated testing, and Infrastructure as Code. My portfolio showcases how operational excellence meets technical innovation.
+I am currently pursuing an **MSc in DevOps & Cloud Computing** at IU International University of Applied Sciences, where I have achieved outstanding results:
+
+- **DevOps (5 ECTS)** – **96% (Distinction)**
+- **Advanced Research Methods (5 ECTS)** – **90% (Distinction)**
+
+My GitHub showcases practical CI/CD mastery combined with rigorous, evidence-based research on wireless security and infrastructure modernization — skills I apply to deliver justified, production-ready solutions.
 
 ---
 
