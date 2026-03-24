@@ -79,7 +79,7 @@ A **prioritized deployment roadmap** with staged recommendations and practical g
 ---
 ## 🎓 Education
 ---
-- MSc DevOps & Cloud Computing – IU International University of Applied Sciences, Germany (Ongoing)
+**MSc DevOps & Cloud Computing** – IU International University of Applied Sciences, Germany (Ongoing)
 
 * Current GPA: 80.5%
 * Completed Modules:
