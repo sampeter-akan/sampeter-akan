@@ -149,29 +149,36 @@ A full-stack web application demonstrating enterprise-grade DevOps practices wit
   - SLF4J/Logback structured logging
   - Automated deployment workflow
 
-🎓📶 Advanced Research Methods (MSc) — Research Proposal
+## 🎓📶 Advanced Research Methods (MSc) — Research Proposal
 🔐 An Empirical Study of IEEE 802.11 and WPA3 Adoption Priorities in Campus & Public Wi-Fi
-🏆 Grade: 90%
-📘 Course: Advanced Research Methods (5 ECTS), MSc DevOps & Cloud Computing
-🏫 Institution: IU International University of Applied Sciences
-📅 Date: January 2026
-🔗 Repository: https://github.com/sampeter-akan/empirical_research_proposal_paper
 
-🌍 Why This Project Matters
-Campus and public Wi-Fi operators often face a difficult question:
-Which upgrades should be prioritized first when budget is limited?
+🏆 **Grade: 90%**  
+📘 **Course:** Advanced Research Methods (5 ECTS), MSc DevOps & Cloud Computing  
+🏫 **Institution:** IU International University of Applied Sciences  
+📅 **Date:** January 2026  
+🔗 **Repository:** [empirical_research_proposal_paper](https://github.com/sampeter-akan/empirical_research_proposal_paper)
 
-This proposal addresses that decision using evidence-based research design focused on reliability, mobility, and security outcomes.
+### 🌍 Why This Project Matters
+Campus and public Wi-Fi operators often face a difficult question: **Which upgrades should be prioritized first when budget is limited?**
 
-🧪 Research Focus
-⚡ Performance in dense environments (upload speed and connection stability)
-🚶 Roaming continuity across multi-AP networks (video-call resilience)
-🛡️ Security hardening (WPA2 vs WPA3 and management-frame protection)
-🎯 Key Outcome
+This research proposal addresses that challenge with an evidence-based research design focused on **reliability**, **mobility**, and **security** outcomes.
+
+### 🧪 Research Focus
+- ⚡ **Performance** in dense environments (upload speed and connection stability)
+- 🚶 **Roaming continuity** across multi-AP networks (video-call resilience)
+- 🛡️ **Security hardening** (WPA2 vs WPA3 and management-frame protection)
+
+### 🎯 Key Outcome
 A practical, priority-ordered deployment roadmap that translates Wi-Fi standards into implementable upgrade actions for IT operators and decision-makers.
 
-🧠 Skills Demonstrated
-Research design • Empirical methodology • Infrastructure performance analysis • Wireless standards evaluation • Security assessment planning • Evidence-based technical decision support
+### 🧠 Skills Demonstrated
+- Research design & empirical methodology  
+- Infrastructure performance analysis  
+- Wireless standards evaluation (IEEE 802.11 family)  
+- Security assessment planning (WPA3 features)  
+- Evidence-based technical decision support  
+
+**Full Proposal:** Available in the repository as PDF (`docs/DLMARM01-01-ARM2.pdf`) along with detailed methodology and findings.
 
 ##💰 Future Value Calculator
 A web app that calculates the future value of monthly payments.
