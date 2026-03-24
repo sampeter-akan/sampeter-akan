@@ -77,23 +77,14 @@ A **prioritized deployment roadmap** with staged recommendations and practical g
 📄 **[Full PDF Proposal](https://github.com/sampeter-akan/empirical_research_proposal_paper/blob/main/docs/DLMARM01-01-ARM2.pdf)**
 
 ---
-
-### 💰 Future Value Calculator
-A clean web application for calculating the future value of monthly investments.
-
-**Tech:** HTML, CSS, JavaScript  
-📂 **[View Repository](https://github.com/sampeter-akan/future-value-calculator)**  
-🌐 **[Live Demo](https://sampeter-akan.github.io/future-value-calculator)**
-
----
-
 ## 🎓 Education
-
+---
 - MSc DevOps & Cloud Computing – IU International University of Applied Sciences, Germany (Ongoing)
 
 * Current GPA: 80.5%
 * Completed Modules:
   - DevOps - 96% (5 ECTS)
+  - Advanced Research Methods - 90% (5 ECTS)
   - IT Service Management - 78.8% (5 ECTS)
   - Agile Software Development - 66.6% (5 ECTS)
  
