@@ -2,14 +2,15 @@
 
 **DevOps & Cloud Engineer | CI/CD Pipelines • Secure Infrastructure & Wi-Fi Modernization | 19+ yrs Critical National Infrastructure**
 
-With over **19 years** as Principal Manager in critical national infrastructure at the Transmission Company of Nigeria, I bring deep expertise in high-reliability systems, operational excellence, and secure network environments.  
+With over **19 years** as Principal Manager in critical national infrastructure at the Transmission Company of Nigeria, I bring deep expertise in high-reliability systems, operational excellence, and secure network environments.
 
-I am currently pursuing an **MSc in DevOps & Cloud Computing** at IU International University of Applied Sciences, where I have achieved outstanding results:
+I am currently pursuing an **MSc in DevOps & Cloud Computing** at IU International University of Applied Sciences, where I have achieved strong results:
 
-- **DevOps (5 ECTS)** – **96% (Distinction)**
-- **Advanced Research Methods (5 ECTS)** – **90% (Distinction)**
+- **DevOps** – **96% (Distinction)**
+- **Advanced Research Methods** – **90% (Distinction)**
+- **Cloud Computing Project** – **84% (Good)**
 
-My GitHub showcases practical CI/CD mastery combined with rigorous, evidence-based research on wireless security and infrastructure modernization — skills I apply to deliver justified, production-ready solutions.
+My GitHub showcases practical CI/CD mastery, cloud-native ML deployment, and evidence-based research on wireless security and infrastructure modernization.
 
 ---
 
@@ -26,7 +27,7 @@ I designed and developed a **contract-first microservices-based Movies API** to 
 - GitHub Actions CI/CD pipeline with reproducible artifacts
 - Performance baselines (P50 < 100ms, P95 < 500ms)
 
-**Skills Demonstrated:** Microservices architecture, OpenAPI specification, performance engineering, CI/CD, traceability & documentation.
+**Skills Demonstrated:** Microservices architecture, OpenAPI, performance engineering, CI/CD, technical documentation.
 
 📂 **[View Repository](https://github.com/sampeter-akan/movies-api)**
 
@@ -35,14 +36,14 @@ I designed and developed a **contract-first microservices-based Movies API** to 
 ### 🚀 Credit Loan Calculator — Enterprise CI/CD Pipeline
 **MSc DevOps Module | Grade: 96% (Distinction)**
 
-I built a full-stack web application with a complete enterprise-grade CI/CD pipeline as part of my MSc DevOps coursework (5 ECTS).
+I built a full-stack web application with a complete enterprise-grade CI/CD pipeline.
 
 **Key Highlights:**
 - Automated build, test, and deploy using Jenkins, Maven, Selenium, JUnit, and GitHub Actions
-- Security scanning with Dependabot and structured logging (SLF4J/Logback)
-- Agile/Scrum methodology with Jira + AI-assisted development (GitHub Copilot)
+- Security scanning with Dependabot and structured logging
+- Agile/Scrum methodology with Jira + GitHub Copilot
 
-**Skills Demonstrated:** CI/CD orchestration, automated testing, security practices, DevOps tooling, and reproducible pipelines.
+**Skills Demonstrated:** CI/CD orchestration, automated testing, security practices, DevOps tooling.
 
 📂 **[View Repository](https://github.com/sampeter-akan/credit-loan-calculator)**
 
@@ -51,80 +52,71 @@ I built a full-stack web application with a complete enterprise-grade CI/CD pipe
 ### 🎓📶 Advanced Research Methods — Distinguished Research Proposal
 🔐 **An Empirical Study of IEEE 802.11 & WPA3 Adoption Gaps and Feature Prioritization in Campus & Public Wi-Fi Hotspots**
 
-**MSc Course | Grade: 90% (Distinction)** – Advanced Research Methods (5 ECTS)
+**MSc Course | Grade: 90% (Distinction)**
 
-Campus and public Wi-Fi operators often run mixed legacy deployments and must prioritize upgrades under tight budgets.  
-
-I designed an empirical research proposal to deliver **evidence-based prioritization** of IEEE 802.11 features and WPA3 capabilities, focusing on real-world performance, mobility, and security in dense and multi-AP environments.
+I designed an empirical research proposal to deliver **evidence-based prioritization** of IEEE 802.11 features and WPA3 capabilities for dense, multi-AP environments.
 
 **Research Scope:**
-- ⚡ Performance benchmarking in high-density scenarios (throughput & stability)
-- 🚶 Roaming & handover resilience for latency-sensitive apps (video calls, VoIP)
-- 🛡️ Security evaluation — WPA2-to-WPA3 migration, Protected Management Frames, SAE authentication
+- ⚡ Performance benchmarking in high-density scenarios
+- 🚶 Roaming & handover resilience for latency-sensitive applications
+- 🛡️ Security evaluation — WPA2-to-WPA3 migration and management frame protection
 
-**Key Deliverable:**  
-A **prioritized deployment roadmap** with staged recommendations and practical guidance for secure cloud-edge networking and zero-trust access.
-
-**Skills Demonstrated:**
-- Evidence-based decision-making under constraints
-- Empirical research design and quantitative testbed methodology
-- Wireless standards evaluation (IEEE 802.11 family & WPA3)
-- Infrastructure performance, reliability & security assessment
-
-**Why this stands out:** Most DevOps candidates can build pipelines. Very few can back architecture and security choices with rigorous, standards-driven empirical research like this.
+**Key Deliverable:** Prioritized deployment roadmap for secure cloud-edge networking and zero-trust access.
 
 📂 **[View Repository](https://github.com/sampeter-akan/empirical_research_proposal_paper)**  
 📄 **[Full PDF Proposal](https://github.com/sampeter-akan/empirical_research_proposal_paper/blob/main/docs/DLMARM01-01-ARM2.pdf)**
 
 ---
-## 🎓 Education
----
-**MSc DevOps & Cloud Computing** – IU International University of Applied Sciences, Germany (Ongoing)
 
-* Current GPA: 80.5%
-* Completed Modules:
-  - DevOps - 96% (5 ECTS)
-  - Advanced Research Methods - 90% (5 ECTS)
-  - IT Service Management - 78.8% (5 ECTS)
-  - Agile Software Development - 66.6% (5 ECTS)
- 
-**BSc Computing & IT** – University of Derby, England, UK (2020)
-* First Class Honours
+### ☁️ HomeStayGrid ML Recommender Feed — AWS Cloud ML Deployment
+**MSc Cloud Computing Project | Grade: 84% (Good / 2.0)**
+
+I designed and deployed a **cloud-native ML recommender system** for power grid operations. The prototype analyzes grid assets and generates prioritized risk-based maintenance recommendations to support predictive reliability management.
+
+**Built With:**
+- Python 3.11, scikit-learn, pandas, joblib
+- FastAPI (REST API for real-time recommendations)
+- Docker
+- AWS (ECR, S3, Elastic Beanstalk, EC2, IAM, CloudWatch)
+
+**Key Highlights:**
+- Trained tabular ML model for outage risk ranking and maintenance prioritization
+- Developed and exposed a `/recommend` REST API endpoint
+- Containerized and deployed the service to AWS Elastic Beanstalk
+- Comprehensive documentation and operational considerations
+
+**Why this project matters:** It bridges my 19+ years of grid operations experience with modern cloud and machine learning technologies.
+
+📂 **[View Repository](https://github.com/sampeter-akan/homestaygrid_ml_recommender_feed)**  
+📄 **[Project Report](https://github.com/sampeter-akan/homestaygrid_ml_recommender_feed/blob/main/docs/Task2_Project_Report_HomeStayGrid.md)**
+
+---
+
+## 🎓 Education
+
+- **MSc DevOps & Cloud Computing** – IU International University of Applied Sciences, Germany (Ongoing)  
+  Current GPA: **80.5%**
+
+- **BSc (Hons) Computing & IT** – University of Derby, UK (2020)  
+  **First Class Honours**
 
 ---
 
 ## 📈 Professional Journey
 
-**Electric Power System Operator** | 19+ Years
-* Managed high-voltage transmission networks with 99.9%+ reliability
-* Real-time monitoring, emergency response, NERC compliance
-* Energy Management Systems (EMS) expertise
+**Principal Manager – Electric Power System Operator**  
+Transmission Company of Nigeria (19+ years)
 
-**Current Focus**
-* Building cloud-native smart grid monitoring platforms
-* Implementing Infrastructure as Code for critical systems
-* Applying DevOps automation to traditional infrastructure operations
+- Managed high-voltage transmission networks with **99.9%+ reliability**
+- Led 24/7 grid operations, incident response, and emergency management
+- Oversaw Energy Management Systems (EMS) and NERC compliance
+- Currently focused on modernizing traditional infrastructure with cloud, DevOps, and AI/ML solutions
 
 ---
 
 ## 📫 Contact Me
-- 📧 Email: samuelakanimo@hotmail.com
-- 🔗 LinkedIn: [linkedin.com/in/samuel-peter-5117223b](https://www.linkedin.com/in/samuel-peter-5117223b)
 
-Let’s build resilient systems at scale—where uptime, efficiency, and innovation intersect.
+- **Email:** samuelakanimo@hotmail.com
+- **LinkedIn:** [linkedin.com/in/samuel-peter-5117223b](https://www.linkedin.com/in/samuel-peter-5117223b)
 
-
----
-
-### 📊 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=sampeter-akan&show_icons=true&theme=dark)
-
-### 🏆 Recent Achievements
-
-* ⭐ Designed and developed a microservice-based REST API following Contract-first develoment principles
-* ⭐ Achieved 96% in MSc DevOps module
-* ⭐ Built enterprise CI/CD pipeline with Jenkins
-* ⭐ Completed ITSM and Agile Software Development courses
-* ⭐ Transitioned from grid operations to cloud engineering
-
+**Let’s connect** if you’re building resilient, secure, and intelligent systems where operational excellence meets modern cloud and automation.
