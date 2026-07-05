@@ -1,6 +1,6 @@
 # Samuel Peter
 
-**DevOps & Cloud Engineer | CI/CD Pipelines • Secure Infrastructure & Wi-Fi Modernization | 19+ yrs Critical National Infrastructure**
+**DevOps & Cloud Engineer | CI/CD • AWS Cloud ML • Secure Infrastructure & Wi-Fi Modernization | 19+ yrs Critical National Infrastructure**
 
 With over **19 years** as Principal Manager in critical national infrastructure at the Transmission Company of Nigeria, I bring deep expertise in high-reliability systems, operational excellence, and secure network environments.
 
