@@ -104,7 +104,7 @@ I designed and deployed a **cloud-native ML recommender system** for power grid 
 
 ## 📈 Professional Journey
 
-**Principal Manager – Electric Power System Operator**  
+**Principal Manager – Grid System Operations**  
 Transmission Company of Nigeria (19+ years)
 
 - Managed high-voltage transmission networks with **99.9%+ reliability**
