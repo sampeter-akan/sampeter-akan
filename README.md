@@ -12,6 +12,8 @@ I am currently pursuing an **MSc in DevOps & Cloud Computing** at IU Internation
 
 My GitHub showcases practical CI/CD mastery, cloud-native ML deployment, and evidence-based research on wireless security and infrastructure modernization.
 
+📂 **[View Personal Portfolio Website](https://samuelpeter.dev)**
+
 ---
 
 ## 💼 Featured Projects
