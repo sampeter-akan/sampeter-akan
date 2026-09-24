@@ -1,6 +1,6 @@
 # Samuel Peter
 
-**DevOps & Cloud Engineer | CI/CD • AWS Cloud ML • Secure Infrastructure & Wi-Fi Modernization | 19+ yrs Critical National Infrastructure**
+**DevOps & Cloud | Infrastructure Engineer**
 
 With over **19 years** as Principal Manager in critical national infrastructure at the Transmission Company of Nigeria, I bring deep expertise in high-reliability systems, operational excellence, and secure network environments.
 
@@ -10,7 +10,7 @@ I am currently pursuing an **MSc in DevOps & Cloud Computing** at IU Internation
 - **Advanced Research Methods** – **90% (Distinction)**
 - **Cloud Computing Project** – **84% (Good)**
 
-My GitHub showcases practical CI/CD mastery, cloud-native ML deployment, and evidence-based research on wireless security and infrastructure modernization.
+My GitHub showcases practical CI/CD mastery, cloud-native ML deployment, and evidence-based research on wireless security as well and infrastructure modernization.
 
 📂 **[View Personal Portfolio Website](https://samuelpeter.dev)**
 
@@ -48,7 +48,8 @@ Bulk 330 kV Extra-High-Voltage (EHV) networks face sudden catastrophic collapse 
 - **Mathematical Modeling:** Swing equations, Ferranti capacitance derivations, governor droop simulation
 - **Deployment:** Vercel Edge CI/CD Pipeline
 
-👉 **[Explore Live Production Console](https://gridpulse-330app-szws.vercel.app/)** • **[View Codebase & Architecture Docs](https://github.com/sampeter-akan/gridpulse-330app)**
+👉 ***[Explore Live Production Console](https://gridpulse-330app-szws.vercel.app/)*** • ***[View Codebase & Architecture Docs](https://github.com/sampeter-akan/gridpulse-330app)***
+
 ---
 
 ### 🎬 Movies API — Microservices Research & Development Project
