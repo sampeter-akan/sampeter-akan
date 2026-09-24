@@ -1,6 +1,6 @@
 # Samuel Peter
 
-**DevOps & Cloud | Infrastructure Engineer**
+**DevOps & Cloud | Critical Infrastructure Engineer**
 
 With over **19 years** as Principal Manager in critical national infrastructure at the Transmission Company of Nigeria, I bring deep expertise in high-reliability systems, operational excellence, and secure network environments.
 
