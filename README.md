@@ -18,6 +18,39 @@ My GitHub showcases practical CI/CD mastery, cloud-native ML deployment, and evi
 
 ## 💼 Featured Projects
 
+### ⚡GridPulse 330 — DevOps Power Grid Telemetry & Contingency Architecture
+
+[![Live Demo](https://img.shields.io/badge/Demo-gridpulse--330.vercel.app-00DC82?style=for-the-badge&logo=vercel&logoColor=white)](https://gridpulse-330app-szws.vercel.app/)
+[![GitHub Repo](https://img.shields.io/badge/Repository-sampeter--akan%2Fgridpulse--330app-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sampeter-akan/gridpulse-330app)
+[![Tech Stack](https://img.shields.io/badge/Stack-React_19_|_TypeScript_|_Tailwind_CSS_v4_|_Vite_8-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://github.com/sampeter-akan/gridpulse-330app)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sampeter-akan/gridpulse-330app/main/gridpulse-330app.png" alt="GridPulse 330 Architecture" width="100%" />
+</p>
+
+An enterprise-grade **SCADA/EMS Telemetry & Contingency Console** designed for National Control Center (NCC) power dispatchers, bridging meteorological forecasting with real-time electrical grid stability.
+
+#### 🎯 Problem Solved
+Bulk 330 kV Extra-High-Voltage (EHV) networks face sudden catastrophic collapse during severe convective storms:
+- **Turbine Rotor Overspeed ($f > 51.00\text{ Hz}$):** Sudden industrial load rejections cause mechanical torque to exceed electrical load, accelerating synchronous rotors past statutory ceilings.
+- **The Ferranti Effect ($V > 340.0\text{ kV}$):** Long, lightly loaded bulk transmission links accumulate massive shunt capacitive charging ($Q_{\text{charging}}$), producing destructive overvoltage surges.
+
+#### 🛠️ Key Capabilities & Engineering Highlights
+- 📡 **Doppler Radar Horizon Integration:** Anticipates atmospheric storm fronts and lightning threats in real-time, predicting physical line trips before they occur.
+- 🚨 **Statutory Dual-Threshold Engine:** Triggers instantaneous visual and acoustic alarms when 330 kV bus voltages ($>340\text{ kV}$) or grid frequencies ($>51.00\text{ Hz}$) breach safety limits.
+- ⚡ **Double-Circuit Corridor Protection:** Monitors transmission lines (e.g., Ikeja West – Oshogbo) with ANSI 87L differential protection and dynamic $N-1$ thermal transfer modeling.
+- 🎛️ **Closed-Loop Dispatch Playbook:** Instant operator restoration controls — switch in **150 MVAR Shunt Reactors**, ramp generation down (**-400 MW**), and execute synchrocheck auto-reclose.
+- 📜 **Sub-Second SCADA Sequence of Events (SOE):** Immutable event audit stream capturing transient waveforms, relay activations, and operator commands for root-cause analysis (RCA).
+
+#### 🧰 Tech Stack
+- **Frontend & UI:** React 19, TypeScript, Tailwind CSS v4, Lucide Icons
+- **Tooling & Build:** Vite 8, Bun / Node.js
+- **Mathematical Modeling:** Swing equations, Ferranti capacitance derivations, governor droop simulation
+- **Deployment:** Vercel Edge CI/CD Pipeline
+
+👉 **[Explore Live Production Console](https://gridpulse-330app-szws.vercel.app/)** • **[View Codebase & Architecture Docs](https://github.com/sampeter-akan/gridpulse-330app)**
+---
+
 ### 🎬 Movies API — Microservices Research & Development Project
 **MSc DevOps & Cloud Computing Coursework**
 
