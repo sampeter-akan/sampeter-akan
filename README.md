@@ -2,7 +2,7 @@
 
 **DevOps & Cloud | Critical Infrastructure Engineer**
 
-With over **19 years** as Principal Manager in critical national infrastructure at the Transmission Company of Nigeria, I bring deep expertise in high-reliability systems, operational excellence, and secure network environments.
+With over **20+ years** as Principal Manager in critical national infrastructure at the Transmission Company of Nigeria, I bring deep expertise in high-reliability systems, operational excellence, and secure network environments.
 
 I am currently pursuing an **MSc in DevOps & Cloud Computing** at IU International University of Applied Sciences, where I have achieved strong results:
 
