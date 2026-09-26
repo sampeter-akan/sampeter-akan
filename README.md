@@ -1,16 +1,16 @@
 # Samuel Peter
 
-**DevOps & Cloud | Critical Infrastructure Engineer**
+**DevOps & Cloud Engineer | Critical Infrastructure & Reliability**
 
-With over **20+ years** as Principal Manager in critical national infrastructure at the Transmission Company of Nigeria, I bring deep expertise in high-reliability systems, operational excellence, and secure network environments.
+With over 20+ years as Principal Manager in critical national infrastructure at the Transmission Company of Nigeria, I bring deep expertise in high-reliability systems, operational excellence, and secure environments.
 
-I am currently pursuing an **MSc in DevOps & Cloud Computing** at IU International University of Applied Sciences, where I have achieved strong results:
+I am currently pursuing an **MSc in DevOps & Cloud Computing** at IU International University of Applied Sciences, with strong results:
 
-- **DevOps** – **96% (Distinction)**
-- **Advanced Research Methods** – **90% (Distinction)**
-- **Cloud Computing Project** – **84% (Good)**
+- DevOps – **96% (Distinction)**
+- Advanced Research Methods – **90% (Distinction)**
+- Cloud Computing Project – **84% (Good)**
 
-My GitHub showcases practical CI/CD mastery, cloud-native ML deployment, and evidence-based research on wireless security as well and infrastructure modernization.
+My GitHub showcases practical CI/CD pipelines, cloud-native ML deployment, infrastructure automation, and domain-driven projects such as **GridPulse 330** (an interactive SCADA/EMS-style contingency simulation for 330 kV transmission systems).
 
 📂 **[View Personal Portfolio Website](https://samuelpeter.dev)**
 
