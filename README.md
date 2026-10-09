@@ -52,6 +52,175 @@ Bulk 330 kV Extra-High-Voltage (EHV) networks face sudden catastrophic collapse 
 
 ---
 
+### 🎮 VAULT FIVE — Real-Time Multiplayer Game | Cloud-Native Systems & DevOps
+
+**Handshake AI Skills Studio × OpenAI Multiplayer Game Challenge**
+
+[![Play Live Game](https://img.shields.io/badge/PLAY-LIVE_GAME-00C853?style=for-the-badge&logo=vercel&logoColor=white)](https://vault-five-umber.vercel.app/)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sampeter-akan/vault-five)
+[![Project Documentation](https://img.shields.io/badge/Docs-Architecture_%26_Operations-0078D4?style=for-the-badge&logo=readthedocs&logoColor=white)](https://github.com/sampeter-akan/vault-five#architecture)
+
+[![CI](https://github.com/sampeter-akan/vault-five/actions/workflows/ci.yml/badge.svg)](https://github.com/sampeter-akan/vault-five/actions/workflows/ci.yml)
+[![Production Health](https://github.com/sampeter-akan/vault-five/actions/workflows/production-health.yml/badge.svg)](https://github.com/sampeter-akan/vault-five/actions/workflows/production-health.yml)
+
+[![React](https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite_6-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vite.dev/)
+[![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)](https://supabase.com/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/sampeter-akan/vault-five/actions)
+[![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)](https://vercel.com/)
+
+> **Project overview:** VAULT FIVE is a deployed, browser-based multiplayer vault-cracking game demonstrating real-time state synchronization, server-authoritative game logic, identity-aware authorization, serverless architecture, and DevOps automation.
+>
+> Players create or join private rooms using a four-character code, compete through three timed rounds, earn points, and attempt to unlock a fictional **$1,000,000 jackpot**. The jackpot is strictly an in-game reward with no real cash value, wagering, or payout.
+
+#### 🖥️ Interactive Game Experience
+
+<p align="center">
+  <a href="https://vault-five-umber.vercel.app/">
+    <img src="https://raw.githubusercontent.com/sampeter-akan/vault-five/main/docs/images/vault-five-landing-page.png" alt="VAULT FIVE multiplayer game landing page" width="85%" />
+  </a>
+</p>
+
+<p align="center">
+  <em>Figure 1 — Responsive landing page for hosting or joining multiplayer rooms. Click the image to launch the live game.</em>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sampeter-akan/vault-five/main/docs/images/vault-five-the-rules.png" alt="VAULT FIVE game rules and player onboarding" width="75%" />
+</p>
+
+<p align="center">
+  <em>Figure 2 — Player instructions and timed round structure.</em>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sampeter-akan/vault-five/main/docs/images/vault-five-cracked-vault.png" alt="VAULT FIVE winning screen and leaderboard" width="85%" />
+</p>
+
+<p align="center">
+  <em>Figure 3 — Successful vault unlock, winner announcement, and final leaderboard.</em>
+</p>
+
+#### 🎯 Engineering Challenge
+
+The central engineering problem was coordinating independent browser sessions without allowing each client to determine its own game state.
+
+The solution combines **Supabase Realtime communication**, persistent PostgreSQL state, and a **server-authoritative Edge Function** that validates player actions, manages rounds, calculates scores, and determines the winner.
+
+This separates user-interface rendering from trusted game-state transitions.
+
+#### 🚀 Core Features
+
+- 🎮 **Real-Time Multiplayer:** Create and join private game rooms across different browsers and devices.
+- 🔐 **Invisible Authentication:** Supabase anonymous authentication enables gameplay without a visible registration process.
+- ⏱️ **Synchronized Rounds:** Server-managed deadlines coordinate Discover, Deduce, and Final Vault.
+- 🏆 **Fair Scoring:** Server-side answer verification, score calculation, winner selection, and leaderboard generation.
+- 📡 **Realtime Updates:** WebSocket-based broadcasts, complemented by authoritative state polling to recover from missed updates.
+- 🔄 **Replay:** Players can restart the experience after completing a game.
+- 📱 **Responsive Interface:** Browser-based gameplay without a separate installation.
+
+#### 🏗️ Cloud Architecture
+
+| Layer | Technology | Engineering Responsibility |
+|---|---|---|
+| Frontend | React 19, TypeScript, Vite 6 | Responsive gameplay and state rendering |
+| Hosting | Vercel | Static frontend deployment |
+| Identity | Supabase Auth | Anonymous player sessions and JWT identity |
+| Backend | Supabase Edge Functions | Authoritative game logic and validation |
+| Realtime | Supabase Realtime | WebSocket-based state notifications |
+| Persistence | PostgreSQL | Rooms, players, rounds, submissions, and scores |
+| Authorization | JWT checks and PostgreSQL RLS | Room-scoped access and data protection |
+| CI | GitHub Actions | Static checks, automated tests, and production build |
+| Operations | GitHub Actions synthetic checks | Production endpoint verification and retained results |
+
+📐 **[Explore Architecture, State Lifecycle & Security Design](https://github.com/sampeter-akan/vault-five#architecture)**
+
+#### ⚙️ DevOps, CI/CD & Production Reliability
+
+**✅ Continuous Integration**
+
+The GitHub Actions CI workflow runs on pull requests and pushes to `main`:
+
+- Reproducible dependency installation using `npm ci`
+- TypeScript static checks
+- Automated architectural smoke tests
+- Production Vite build verification
+
+[![View CI Pipeline](https://img.shields.io/badge/View-CI_Pipeline-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/sampeter-akan/vault-five/actions/workflows/ci.yml)
+
+**✅ Production Synthetic Monitoring**
+
+A separate GitHub Actions workflow runs scheduled, non-mutating production checks every hour and supports manual execution.
+
+It verifies:
+- The deployed frontend returns HTTP `200`.
+- The protected game API rejects unauthenticated access with HTTP `401`.
+- Probe durations and results are recorded.
+- Synthetic result artifacts are retained for 14 days.
+
+The initial manually triggered production health workflow passed both checks.
+
+These probes verify specific endpoint behaviors; they are **not** a substitute for authenticated end-to-end gameplay testing, latency percentiles, or a formal availability SLO.
+
+[![View Production Health](https://img.shields.io/badge/View-Production_Health-00897B?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/sampeter-akan/vault-five/actions/workflows/production-health.yml)
+
+**✅ Deployment & Operations**
+
+- GitHub-integrated Vercel deployment
+- Environment-variable and backend-secret separation
+- Production troubleshooting using Vercel and Supabase logs
+- Documented release checks, incident triage, and rollback considerations
+
+[![Operations Runbook](https://img.shields.io/badge/Read-Operations_Runbook-455A64?style=for-the-badge&logo=markdown&logoColor=white)](https://github.com/sampeter-akan/vault-five/blob/main/docs/OPERATIONS.md)
+
+#### 🛡️ Security & Reliability Engineering
+
+- **Server-authoritative state:** Clients submit actions, not trusted scores or victory declarations.
+- **Identity-aware access:** JWT validation and room membership checks enforce API permissions.
+- **Row Level Security:** PostgreSQL policies support protected data access.
+- **Secret isolation:** Vault combination and service credentials are kept outside the frontend.
+- **State recovery:** Periodic authoritative state reads help clients recover when Realtime notifications are missed.
+- **Incident-driven improvements:** Multiplayer testing exposed authentication, synchronization, feedback, and winner-attribution issues that were investigated and corrected.
+
+#### 📚 Engineering Lessons
+
+VAULT FIVE reinforced several important principles:
+
+1. **Distributed state must have a trusted authority.** Browser clients cannot independently decide round outcomes.
+2. **Realtime delivery needs a recovery mechanism.** Broadcast notifications are complemented by state reconciliation.
+3. **Security boundaries must be explicit.** Authentication, authorization, validation, and secrets belong in trusted backend services.
+4. **Deployment is only one part of delivery.** Automated checks, incident investigation, and operational documentation improve maintainability.
+5. **Reliability claims require evidence.** Production probes, multiplayer walkthroughs, and architectural tests serve different verification purposes.
+
+#### 🔭 Future Engineering Enhancements
+
+- 📊 API request latency distributions and error-rate dashboards
+- 🔔 Automated failure notifications and alert routing
+- 🧪 Multi-client load testing and concurrency verification
+- 🛡️ Abuse protection, rate limiting, and further security hardening
+- 🔄 Automated release gating and isolated staging environments
+
+*These are planned improvements, not currently verified production capabilities.*
+
+#### 🧑‍💻 Skills Demonstrated
+
+**Real-Time Systems • Distributed State Management • Cloud-Native Development • Serverless Architecture • TypeScript • PostgreSQL • WebSockets • CI/CD • GitHub Actions • Production Monitoring • Security Engineering • Incident Response • Reliability Engineering**
+
+<p align="center">
+  <a href="https://vault-five-umber.vercel.app/">
+    <img src="https://img.shields.io/badge/🎮_PLAY-VAULT_FIVE-00C853?style=for-the-badge&logo=vercel&logoColor=white" alt="Play VAULT FIVE" />
+  </a>
+  <a href="https://github.com/sampeter-akan/vault-five">
+    <img src="https://img.shields.io/badge/💻_EXPLORE-SOURCE_CODE-181717?style=for-the-badge&logo=github&logoColor=white" alt="Explore VAULT FIVE source" />
+  </a>
+</p>
+
+👉 **[Play VAULT FIVE](https://vault-five-umber.vercel.app/)** • **[View Complete Engineering Case Study](https://github.com/sampeter-akan/vault-five)**
+
+---
+
 ### 🎬 Movies API — Microservices Research & Development Project
 **MSc DevOps & Cloud Computing Coursework**
 
@@ -121,7 +290,7 @@ I designed and deployed a **cloud-native ML recommender system** for power grid 
 - Containerized and deployed the service to AWS Elastic Beanstalk
 - Comprehensive documentation and operational considerations
 
-**Why this project matters:** It bridges my 19+ years of grid operations experience with modern cloud and machine learning technologies.
+**Why this project matters:** It bridges my 20+ years of grid operations experience with modern cloud and machine learning technologies.
 
 📂 **[View Repository](https://github.com/sampeter-akan/homestaygrid_ml_recommender_feed)**  
 📄 **[Project Report](https://github.com/sampeter-akan/homestaygrid_ml_recommender_feed/blob/main/docs/Task2_Project_Report_HomeStayGrid.md)**
