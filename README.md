@@ -310,12 +310,13 @@ I designed and deployed a **cloud-native ML recommender system** for power grid 
 ## 📈 Professional Journey
 
 **Principal Manager – Grid System Operations**  
-Transmission Company of Nigeria (19+ years)
+**Transmission Company of Nigeria | 20+ Years in Critical Infrastructure**
 
-- Managed high-voltage transmission networks with **99.9%+ reliability**
-- Led 24/7 grid operations, incident response, and emergency management
-- Oversaw Energy Management Systems (EMS) and NERC compliance
-- Currently focused on modernizing traditional infrastructure with cloud, DevOps, and AI/ML solutions
+- ⚡ **Mission-Critical Operations:** Lead 24/7 high-voltage transmission grid operations, supporting 99.9%+ system reliability.
+- 🛡️ **Incident & Risk Management:** Coordinate real-time incident response, emergency restoration, and operational risk mitigation.
+- 🖥️ **Systems & Compliance:** Oversee SCADA/EMS operations, grid stability, and regulatory compliance.
+- ☁️ **Cloud & DevOps Transformation:** Apply operational expertise to cloud-native engineering, CI/CD automation, observability, and AI/ML-driven reliability solutions.
+- 🚀 **Engineering Leadership:** Bridge critical infrastructure operations with modern DevOps, Cloud, and Site Reliability Engineering practices.
 
 ---
 
