@@ -7,6 +7,7 @@ With over 20+ years as Principal Manager in critical national infrastructure at 
 I am currently pursuing an **MSc in DevOps & Cloud Computing** at IU International University of Applied Sciences, with strong results:
 
 - DevOps – **96% (Distinction)**
+- Project: Design Thinking – **95% (Distinction)**
 - Advanced Research Methods – **90% (Distinction)**
 - Cloud Computing Project – **84% (Good)**
 
@@ -49,6 +50,42 @@ Bulk 330 kV Extra-High-Voltage (EHV) networks face sudden catastrophic collapse 
 - **Deployment:** Vercel Edge CI/CD Pipeline
 
 👉 ***[Explore Live Production Console](https://gridpulse-330app-szws.vercel.app/)*** • ***[View Codebase & Architecture Docs](https://github.com/sampeter-akan/gridpulse-330app)***
+
+---
+
+### 💡 PowerPulse™ — AI Household Energy & Grid Survival Platform
+**MSc Course Module: Project: Design Thinking | Grade: 95% (Distinction)**
+
+[![Live Demo](https://img.shields.io/badge/Demo-powerpulse--ten.vercel.app-00DC82?style=for-the-badge&logo=vercel&logoColor=white)](https://powerpulse-ten.vercel.app/)
+[![GitHub Repo](https://img.shields.io/badge/Repository-sampeter--akan%2Fpowerpulse-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sampeter-akan/powerpulse)
+[![Grade](https://img.shields.io/badge/Grade-95%25_(Distinction)-FFD700?style=for-the-badge&logo=academia&logoColor=black)](https://powerpulse-ten.vercel.app/)
+[![AI Engine](https://img.shields.io/badge/AI_Engine-Gemini_3.8_Flash-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://aistudio.google.com/)
+[![Tech Stack](https://img.shields.io/badge/Stack-React_19_|_TypeScript_|_Tailwind_CSS_|_Node.js-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://github.com/sampeter-akan/powerpulse)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sampeter-akan/powerpulse/main/public/powerpulse_cover.jpg" alt="PowerPulse Platform Architecture" width="100%" />
+</p>
+
+An **IDEO-inspired, human-centered electricity intelligence platform and AI energy companion** that transforms opaque prepaid utility metering into a predictable, health-protecting, and cost-optimizing service. Developed as the capstone for my MSc Design Thinking module (**Graded 95% Distinction**).
+
+#### 🎯 Problem Solved & Design Thinking Focus
+Over 50% of prepaid electricity consumers worldwide experience severe energy anxiety: erratic billing, unpredicted midnight blackouts, spoiled medicines, and opaque meter runout rates. Applying IDEO human-centered design principles (Empathize, Define, Ideate, Prototype, Test), PowerPulse addresses both lived household realities and macro-grid demand-response needs.
+
+#### 🛠️ Key Capabilities & Engineering Highlights
+- 👁️ **Multimodal Computer Vision & OCR:** Uses Google Gemini 3.8 Flash to extract remaining kWh balance, voltage, and anti-tamper codes from degraded, dusty, or cracked meter LCDs.
+- 📉 **"Survive Till Payday" Demand-Response:** Calculates dynamic hourly appliance load-shedding tactics to guarantee remaining units last until salary day while shifting consumption to off-peak tariff bands.
+- ⚖️ **Regulatory Tariff Compliance Auditor:** Automatically audits utility bills against statutory tariff orders (e.g., Nigerian NERC MYTO Bands A–E, Kenyan EPRA, South African Eskom, US TOU) and drafts formal dispute petition letters.
+- 🧊 **Life-Critical Cold-Chain Shield:** Simulates thermodynamic decay curves for insulin and vaccines during extended outages, triggering caregiver emergency acoustic alerts before breaching +8°C.
+- 🛡️ **Zero-Downtime Resilience Fallback:** Production serverless gateway features an automated circuit-breaker that fails over from `gemini-3.8-flash` to `gemini-2.5-flash` during peak traffic spikes.
+- ⚡ **STS Token Generator & Bill Splitting:** Generates standard 20-digit Standard Transfer Specification (STS) recharge tokens with shared household micro-vending.
+
+#### 🧰 Tech Stack
+- **Frontend & UI:** React 19, TypeScript, Tailwind CSS, Lucide Icons, Web Audio API
+- **Backend & Edge:** Node.js, Express, Vercel Serverless Architecture
+- **AI Intelligence:** `@google/genai` (Gemini 3.8 Flash with Gemini 2.5 Flash fallback)
+- **Deployment & CI/CD:** GitHub, Vercel Edge Network
+
+👉 ***[Launch Live PowerPulse Companion](https://powerpulse-ten.vercel.app/)*** • ***[View Codebase & Architecture Docs](https://github.com/sampeter-akan/powerpulse)***
 
 ---
 
