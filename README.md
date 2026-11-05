@@ -11,7 +11,7 @@ I am currently pursuing an **MSc in DevOps & Cloud Computing** at IU Internation
 - Advanced Research Methods – **90% (Distinction)**
 - Cloud Computing Project – **84% (Good)**
 
-My GitHub showcases practical CI/CD pipelines, cloud-native ML deployment, infrastructure automation, and domain-driven projects such as **GridPulse 330** (an interactive SCADA/EMS-style contingency simulation for 330 kV transmission systems).
+My GitHub showcases practical CI/CD pipelines, cloud-native ML deployment, infrastructure automation, and domain-driven projects such as **GridPulse Enterprise™** (a global multi-region SCADA/EMS telemetry suite with Gemini AI dispatch intelligence, Doppler radar horizons, and Duval Triangle DGA asset health across ENTSO-E, NERC, National Grid, and WAPP grid codes).
 
 📂 **[View Personal Portfolio Website](https://samuelpeter.dev)**
 
@@ -19,35 +19,40 @@ My GitHub showcases practical CI/CD pipelines, cloud-native ML deployment, infra
 
 ## 💼 Featured Projects
 
-### ⚡GridPulse 330 — DevOps Power Grid Telemetry & Contingency Architecture
+### ⚡ GridPulse Enterprise™ — Global DevOps Power Grid SCADA/EMS & AI Dispatch Suite
 
 [![Live Demo](https://img.shields.io/badge/Demo-gridpulse--330.vercel.app-00DC82?style=for-the-badge&logo=vercel&logoColor=white)](https://gridpulse-330app-szws.vercel.app/)
 [![GitHub Repo](https://img.shields.io/badge/Repository-sampeter--akan%2Fgridpulse--330app-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sampeter-akan/gridpulse-330app)
-[![Tech Stack](https://img.shields.io/badge/Stack-React_19_|_TypeScript_|_Tailwind_CSS_v4_|_Vite_8-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://github.com/sampeter-akan/gridpulse-330app)
+[![Tech Stack](https://img.shields.io/badge/Stack-React_19_|_TypeScript_|_Tailwind_CSS_v4_|_Gemini_AI-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://github.com/sampeter-akan/gridpulse-330app)
+[![Global TSO](https://img.shields.io/badge/Grid%20Codes-ENTSO--E%20%7C%20NERC%20%7C%20National%20Grid%20%7C%20WAPP-emerald?style=for-the-badge&logo=zap&logoColor=white)](https://github.com/sampeter-akan/gridpulse-330app)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sampeter-akan/gridpulse-330app/main/gridpulse-330app.png" alt="GridPulse 330 Architecture" width="100%" />
+  <img src="https://raw.githubusercontent.com/sampeter-akan/gridpulse-330app/main/gridpulse-enterprise-cover.jpg" alt="GridPulse Enterprise Architecture" width="100%" />
 </p>
 
-An enterprise-grade **SCADA/EMS Telemetry & Contingency Console** designed for National Control Center (NCC) power dispatchers, bridging meteorological forecasting with real-time electrical grid stability.
+An enterprise-grade, international **SCADA/EMS Telemetry & Contingency Management Suite** designed for Transmission System Operators (TSOs) worldwide, coupling predictive Doppler weather horizons and substation asset health with real-time electrical grid stability and server-side Gemini AI dispatch intelligence.
 
 #### 🎯 Problem Solved
-Bulk 330 kV Extra-High-Voltage (EHV) networks face sudden catastrophic collapse during severe convective storms:
-- **Turbine Rotor Overspeed ($f > 51.00\text{ Hz}$):** Sudden industrial load rejections cause mechanical torque to exceed electrical load, accelerating synchronous rotors past statutory ceilings.
-- **The Ferranti Effect ($V > 340.0\text{ kV}$):** Long, lightly loaded bulk transmission links accumulate massive shunt capacitive charging ($Q_{\text{charging}}$), producing destructive overvoltage surges.
+Bulk extra-high-voltage ($230\text{ kV} - 765\text{ kV}$) transmission corridors face acute stability threats during severe convective weather and equipment failures:
+- **Global Interconnection Volatility:** Standard SCADA dashboards are regionally isolated; GridPulse Enterprise unifies European (**ENTSO-E 400kV/50Hz**), North American (**NERC 500kV/60Hz**), British (**National Grid 400kV/50Hz**), and West African (**WAPP 330kV/50Hz**) operational standards.
+- **Turbine Inertia Acceleration ($\Delta f \propto \frac{P_{\text{mech}} - P_{\text{elec}}}{2H}$):** Severe storms trip transmission corridors, creating sudden load rejection ($>450\text{ MW}$) that accelerates generator turbine rotors past statutory frequency limits.
+- **Ferranti Capacitive Overvoltages ($V > V_{\text{max}}$):** Long EHV lines under light or tripped load accumulate charging reactive power ($Q_{\text{charging}}$), driving bus voltages past statutory limits.
+- **Catastrophic Substation Asset Breakdown:** Transformer dielectric degradation and high-energy arcing require early molecular-level detection before destructive flashovers occur.
 
 #### 🛠️ Key Capabilities & Engineering Highlights
-- 📡 **Doppler Radar Horizon Integration:** Anticipates atmospheric storm fronts and lightning threats in real-time, predicting physical line trips before they occur.
-- 🚨 **Statutory Dual-Threshold Engine:** Triggers instantaneous visual and acoustic alarms when 330 kV bus voltages ($>340\text{ kV}$) or grid frequencies ($>51.00\text{ Hz}$) breach safety limits.
-- ⚡ **Double-Circuit Corridor Protection:** Monitors transmission lines (e.g., Ikeja West – Oshogbo) with ANSI 87L differential protection and dynamic $N-1$ thermal transfer modeling.
-- 🎛️ **Closed-Loop Dispatch Playbook:** Instant operator restoration controls — switch in **150 MVAR Shunt Reactors**, ramp generation down (**-400 MW**), and execute synchrocheck auto-reclose.
-- 📜 **Sub-Second SCADA Sequence of Events (SOE):** Immutable event audit stream capturing transient waveforms, relay activations, and operator commands for root-cause analysis (RCA).
+- 🌐 **Global Multi-Region TSO Standards Engine:** Seamlessly re-benchmarks nominal voltages, statutory frequency bands, and RoCoF limits across ENTSO-E, NERC, National Grid ESO, WAPP, and custom parameters.
+- 📡 **64-Sector Doppler Weather Radar Horizon:** Real-time animated radar reflectivity ($10\text{ dBZ} - >55\text{ dBZ}$) tracking storm front vectors ($245^\circ\text{ WSW}$ at $78-92\text{ km/h}$) and renewable solar PV/wind ramp deficits $30-60\text{ minutes}$ prior to line exposure.
+- 🔬 **Substation Asset Health & Duval Triangle 1 (IEC 60599):** Real-time dissolved gas analysis calculating $\%CH_4, \%C_2H_4, \%C_2H_2$ to diagnose Partial Discharge (PD), Thermal Overheating (T1–T3), and Arcing (D2), paired with SF6 circuit breaker gas pressure and dynamic line galloping sensors.
+- 🤖 **Server-Side Gemini AI Dispatch Intelligence Advisor:** Express backend proxy (`POST /api/diagnostics`) utilizing `@google/genai` (`gemini-3.8-flash`) to perform real-time root-cause telemetry reasoning and generate 1-click executable Remedial Action Schemes (RAS) with deterministic SCADA fallback.
+- ⚡ **Dual-Circuit High-Voltage Corridor Single-Line Diagram:** Interactive transmission modeling with ANSI 87L differential line protection, synchrocheck reclose interlocks, and 150 MVAR tertiary shunt reactor banks.
+- 📜 **Sub-Second SCADA Sequence of Events (SOE) Audit Stream:** Chronological event log with filterable diagnostic categories and exportable JSON audit reporting.
 
 #### 🧰 Tech Stack
-- **Frontend & UI:** React 19, TypeScript, Tailwind CSS v4, Lucide Icons
-- **Tooling & Build:** Vite 8, Bun / Node.js
-- **Mathematical Modeling:** Swing equations, Ferranti capacitance derivations, governor droop simulation
-- **Deployment:** Vercel Edge CI/CD Pipeline
+- **Frontend:** React 19, TypeScript, Tailwind CSS v4 (Dark blue & white gradient glassmorphism), Lucide Icons
+- **Backend & Full-Stack Server:** Node.js, Express, TSX, dotenv, Vite 8 middleware
+- **AI & Analytics:** Google Gen AI SDK (`@google/genai` - `gemini-3.8-flash`), IEC 60599 Duval coordinate algorithms
+- **Audio Synthesizer:** Native Web Audio API (`OscillatorNode` sawtooth sweep alert horn)
+- **Deployment:** Vercel Edge CI/CD Pipeline & GitHub
 
 👉 ***[Explore Live Production Console](https://gridpulse-330app-szws.vercel.app/)*** • ***[View Codebase & Architecture Docs](https://github.com/sampeter-akan/gridpulse-330app)***
 
