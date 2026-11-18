@@ -21,7 +21,8 @@ My GitHub showcases practical CI/CD pipelines, cloud-native ML deployment, infra
 
 ---
 
-#### T-Minus Countdown: Cloud Architecture Audit *(New)*
+### 🚀T-Minus Countdown: Cloud Architecture Audit *(New)*
+
 [![Live Demo](https://img.shields.io/badge/Live_Demo-Vercel-F59E0B?style=flat-square&logo=vercel&logoColor=14161A)](https://cloud-architecture-audit-app.vercel.app/)
 [![Source Code](https://img.shields.io/badge/Source-GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sampeter-akan/cloud-architecture-audit-app)
 [![QA Sign-Off](https://img.shields.io/badge/QA_Report-Verified-10B981?style=flat-square)](https://github.com/sampeter-akan/cloud-architecture-audit-app/blob/main/client_acceptance_qa_verification_report.md)
@@ -32,7 +33,7 @@ My GitHub showcases practical CI/CD pipelines, cloud-native ML deployment, infra
   </a>
 </p>
 
-* **Overview:** Zero-backend mission telemetry dashboard & `1920x1080` desktop lock screen generator built to orchestrate the Dec 30, 2026 (`08:00 UTC`) Cloud Architecture Audit deliverable.
+* **Overview:** A configurable event and client-deliverable countdown planner that helps cross-functional teams across locations and time zones stay aligned on deadlines, working-day milestones, and progress. Features include shareable plan snapshots, calendar export, and desktop lock-screen generation. Suitable for cloud audits, project handovers, conferences, and product launches
 * **Key Features:** Live DST-aware multi-timezone clocks (`UTC`, `UK`, `EU`, `US PST/EST`, `WAT`), active-workday backward scheduling (`T-28 Workdays` to `T-0 Workdays` excluding weekends and year-end holidays), Base64 URL state sharing, RFC 5545 `.ics` calendar export, and client-side HTML5 Canvas wallpaper compositing.
 * **Stack:** `HTML5` · `Tailwind CSS` · `JavaScript (ES6+)` · `HTML5 Canvas` · `Vercel CI/CD`
 
