@@ -28,8 +28,8 @@ I bring operational leadership and hands-on engineering to **Solution Architectu
   </a>
 </p>
 
-* **Overview:** A configurable event and client-deliverable countdown planner that helps cross-functional teams across locations and time zones stay aligned on deadlines, working-day milestones, and progress. Features include shareable plan snapshots, calendar export, and desktop lock-screen generation. Suitable for cloud audits, project handovers, conferences, and product launches
-* **Key Features:** Live DST-aware multi-timezone clocks (`UTC`, `UK`, `EU`, `US PST/EST`, `WAT`), active-workday backward scheduling (`T-28 Workdays` to `T-0 Workdays` excluding weekends and year-end holidays), Base64 URL state sharing, RFC 5545 `.ics` calendar export, and client-side HTML5 Canvas wallpaper compositing.
+* **Overview:** Configurable deadlines, working-day milestones and progress tracking for distributed teams—supporting audits, handovers, conferences and launches.
+* **Key Features:** Six DST-aware regional clocks, holiday-aware workday counts, editable milestones, URL state sharing, `.ics` calendars and 1920×1080 lock-screen exports.
 * **Stack:** `HTML5` · `Tailwind CSS` · `JavaScript (ES6+)` · `HTML5 Canvas` · `Vercel CI/CD`
 
 ---
@@ -45,28 +45,28 @@ I bring operational leadership and hands-on engineering to **Solution Architectu
   <img src="https://raw.githubusercontent.com/sampeter-akan/gridpulse-330app/main/gridpulse-enterprise-cover.jpg" alt="GridPulse Enterprise Architecture" width="100%" />
 </p>
 
-An enterprise-grade, international **SCADA/EMS Telemetry & Contingency Management Suite** designed for Transmission System Operators (TSOs) worldwide, coupling predictive Doppler weather horizons and substation asset health with real-time electrical grid stability and server-side Gemini AI dispatch intelligence.
+A configurable **SCADA/EMS-style simulation suite** connecting regional grid profiles, weather scenarios, asset diagnostics and AI-assisted operator decisions.
 
 #### 🎯 Problem Solved
-Bulk extra-high-voltage ($230\text{ kV} - 765\text{ kV}$) transmission corridors face acute stability threats during severe convective weather and equipment failures:
-- **Global Interconnection Volatility:** Standard SCADA dashboards are regionally isolated; GridPulse Enterprise unifies European (**ENTSO-E 400kV/50Hz**), North American (**NERC 500kV/60Hz**), British (**National Grid 400kV/50Hz**), and West African (**WAPP 330kV/50Hz**) operational standards.
-- **Turbine Inertia Acceleration ($\Delta f \propto \frac{P_{\text{mech}} - P_{\text{elec}}}{2H}$):** Severe storms trip transmission corridors, creating sudden load rejection ($>450\text{ MW}$) that accelerates generator turbine rotors past statutory frequency limits.
-- **Ferranti Capacitive Overvoltages ($V > V_{\text{max}}$):** Long EHV lines under light or tripped load accumulate charging reactive power ($Q_{\text{charging}}$), driving bus voltages past statutory limits.
-- **Catastrophic Substation Asset Breakdown:** Transformer dielectric degradation and high-energy arcing require early molecular-level detection before destructive flashovers occur.
+Weather events and equipment faults challenge transmission stability. GridPulse brings these operational concerns into one inspectable simulation:
+- **Regional operating context:** ENTSO-E, North American, Great Britain and WAPP profiles.
+- **Frequency stability:** Simulated generation–load imbalance and frequency excursions.
+- **Voltage control:** Light-load overvoltage and reactive-power scenarios.
+- **Asset risk:** Transformer gas diagnostics and substation condition monitoring.
 
 #### 🛠️ Key Capabilities & Engineering Highlights
-- 🌐 **Global Multi-Region TSO Standards Engine:** Seamlessly re-benchmarks nominal voltages, statutory frequency bands, and RoCoF limits across ENTSO-E, NERC, National Grid ESO, WAPP, and custom parameters.
-- 📡 **64-Sector Doppler Weather Radar Horizon:** Real-time animated radar reflectivity ($10\text{ dBZ} - >55\text{ dBZ}$) tracking storm front vectors ($245^\circ\text{ WSW}$ at $78-92\text{ km/h}$) and renewable solar PV/wind ramp deficits $30-60\text{ minutes}$ prior to line exposure.
-- 🔬 **Substation Asset Health & Duval Triangle 1 (IEC 60599):** Real-time dissolved gas analysis calculating $\%CH_4, \%C_2H_4, \%C_2H_2$ to diagnose Partial Discharge (PD), Thermal Overheating (T1–T3), and Arcing (D2), paired with SF6 circuit breaker gas pressure and dynamic line galloping sensors.
-- 🤖 **Server-Side Gemini AI Dispatch Intelligence Advisor:** Express backend proxy (`POST /api/diagnostics`) utilizing `@google/genai` (`gemini-3.8-flash`) to perform real-time root-cause telemetry reasoning and generate 1-click executable Remedial Action Schemes (RAS) with deterministic SCADA fallback.
-- ⚡ **Dual-Circuit High-Voltage Corridor Single-Line Diagram:** Interactive transmission modeling with ANSI 87L differential line protection, synchrocheck reclose interlocks, and 150 MVAR tertiary shunt reactor banks.
-- 📜 **Sub-Second SCADA Sequence of Events (SOE) Audit Stream:** Chronological event log with filterable diagnostic categories and exportable JSON audit reporting.
+- 🌐 **Regional profiles:** Configurable voltage, frequency and RoCoF thresholds.
+- 📡 **Weather scenarios:** Animated radar and renewable ramp-down contingencies.
+- 🔬 **Asset diagnostics:** Duval Triangle DGA, SF6 pressure and line-condition indicators.
+- 🤖 **AI-assisted decisions:** Gemini diagnostics through an Express API, with deterministic fallback and simulated remedial actions.
+- ⚡ **Transmission modelling:** Dual-circuit single-line diagram, protection interlocks and shunt-reactor controls.
+- 📜 **Incident traceability:** Filterable sequence-of-events records and JSON export.
 
 #### 🧰 Tech Stack
-- **Frontend:** React 19, TypeScript, Tailwind CSS v4 (Dark blue & white gradient glassmorphism), Lucide Icons
-- **Backend & Full-Stack Server:** Node.js, Express, TSX, dotenv, Vite 8 middleware
-- **AI & Analytics:** Google Gen AI SDK (`@google/genai` - `gemini-3.8-flash`), IEC 60599 Duval coordinate algorithms
-- **Audio Synthesizer:** Native Web Audio API (`OscillatorNode` sawtooth sweep alert horn)
+- **Frontend:** React 19, TypeScript, Tailwind CSS, Lucide Icons
+- **Backend & Full-Stack Server:** Node.js, Express, Vite, TSX
+- **AI & Analytics:** Google Gen AI SDK, Duval diagnostic algorithms
+- **Audio Synthesizer:** Native Web Audio API
 - **Deployment:** Vercel Edge CI/CD Pipeline & GitHub
 
 👉 ***[Explore Live Production Console](https://gridpulse-330app-szws.vercel.app/)*** • ***[View Codebase & Architecture Docs](https://github.com/sampeter-akan/gridpulse-330app)***
@@ -86,23 +86,23 @@ Bulk extra-high-voltage ($230\text{ kV} - 765\text{ kV}$) transmission corridors
   <img src="https://raw.githubusercontent.com/sampeter-akan/powerpulse/main/public/powerpulse_cover.jpg" alt="PowerPulse Platform Architecture" width="100%" />
 </p>
 
-An **IDEO-inspired, human-centered electricity intelligence platform and AI energy companion** that transforms opaque prepaid utility metering into a predictable, health-protecting, and cost-optimizing service. Developed as the capstone for my MSc Design Thinking module (**Graded 95% Distinction**).
+An **IDEO-inspired energy intelligence platform** helping households interpret meter readings, understand charges and plan remaining electricity credit.
 
 #### 🎯 Problem Solved & Design Thinking Focus
-Over 50% of prepaid electricity consumers worldwide experience severe energy anxiety: erratic billing, unpredicted midnight blackouts, spoiled medicines, and opaque meter runout rates. Applying IDEO human-centered design principles (Empathize, Define, Ideate, Prototype, Test), PowerPulse addresses both lived household realities and macro-grid demand-response needs.
+Prepaid households need clearer billing, predictable credit usage and planning for essential loads. PowerPulse applies IDEO’s human-centered design process to these needs.
 
 #### 🛠️ Key Capabilities & Engineering Highlights
-- 👁️ **Multimodal Computer Vision & OCR:** Uses Google Gemini 3.8 Flash to extract remaining kWh balance, voltage, and anti-tamper codes from degraded, dusty, or cracked meter LCDs.
-- 📉 **"Survive Till Payday" Demand-Response:** Calculates dynamic hourly appliance load-shedding tactics to guarantee remaining units last until salary day while shifting consumption to off-peak tariff bands.
-- ⚖️ **Regulatory Tariff Compliance Auditor:** Automatically audits utility bills against statutory tariff orders (e.g., Nigerian NERC MYTO Bands A–E, Kenyan EPRA, South African Eskom, US TOU) and drafts formal dispute petition letters.
-- 🧊 **Life-Critical Cold-Chain Shield:** Simulates thermodynamic decay curves for insulin and vaccines during extended outages, triggering caregiver emergency acoustic alerts before breaching +8°C.
-- 🛡️ **Zero-Downtime Resilience Fallback:** Production serverless gateway features an automated circuit-breaker that fails over from `gemini-3.8-flash` to `gemini-2.5-flash` during peak traffic spikes.
-- ⚡ **STS Token Generator & Bill Splitting:** Generates standard 20-digit Standard Transfer Specification (STS) recharge tokens with shared household micro-vending.
+- 👁️ **Meter interpretation:** Gemini-assisted extraction of balances and meter details from photographs.
+- 📉 **"Survive Till Payday":** Daily energy budgets and appliance-use recommendations based on remaining credit and target duration.
+- ⚖️ **Billing transparency:** Energy/VAT breakdowns, tariff assessments and dispute preparation.
+- 🧊 **Cold-chain planning:** Scenario-based risk alerts and energy prioritisation for temperature-sensitive needs; specialist validation remains necessary.
+- 🛡️ **AI resilience:** Model fallback supports continuity when the primary AI service is unavailable.
+- ⚡ **Token & household workflows:** Token-format demonstrations and bill-splitting features.
 
 #### 🧰 Tech Stack
 - **Frontend & UI:** React 19, TypeScript, Tailwind CSS, Lucide Icons, Web Audio API
 - **Backend & Edge:** Node.js, Express, Vercel Serverless Architecture
-- **AI Intelligence:** `@google/genai` (Gemini 3.8 Flash with Gemini 2.5 Flash fallback)
+- **AI Intelligence:** Google Gen AI SDK with model fallback
 - **Deployment & CI/CD:** GitHub, Vercel Edge Network
 
 👉 ***[Launch Live PowerPulse Companion](https://powerpulse-ten.vercel.app/)*** • ***[View Codebase & Architecture Docs](https://github.com/sampeter-akan/powerpulse)***
@@ -128,9 +128,9 @@ Over 50% of prepaid electricity consumers worldwide experience severe energy anx
 [![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/sampeter-akan/vault-five/actions)
 [![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)](https://vercel.com/)
 
-> **Project overview:** VAULT FIVE is a deployed, browser-based multiplayer vault-cracking game demonstrating real-time state synchronization, server-authoritative game logic, identity-aware authorization, serverless architecture, and DevOps automation.
+> **Project overview:** Deployed multiplayer game demonstrating authoritative state, identity-aware access and automated delivery.
 >
-> Players create or join private rooms using a four-character code, compete through three timed rounds, earn points, and attempt to unlock a fictional **$1,000,000 jackpot**. The jackpot is strictly an in-game reward with no real cash value, wagering, or payout.
+> Players join private rooms, compete across three timed rounds and unlock a fictional jackpot with no cash value or wagering.
 
 #### 🖥️ Interactive Game Experience
 
@@ -162,21 +162,21 @@ Over 50% of prepaid electricity consumers worldwide experience severe energy anx
 
 #### 🎯 Engineering Challenge
 
-The central engineering problem was coordinating independent browser sessions without allowing each client to determine its own game state.
+Coordinate independent browser sessions while keeping game decisions in trusted backend services.
 
-The solution combines **Supabase Realtime communication**, persistent PostgreSQL state, and a **server-authoritative Edge Function** that validates player actions, manages rounds, calculates scores, and determines the winner.
+**Supabase Realtime, PostgreSQL and an authoritative Edge Function** coordinate actions, rounds, scores and winners.
 
-This separates user-interface rendering from trusted game-state transitions.
+The browser renders gameplay; the server validates state transitions.
 
 #### 🚀 Core Features
 
-- 🎮 **Real-Time Multiplayer:** Create and join private game rooms across different browsers and devices.
-- 🔐 **Invisible Authentication:** Supabase anonymous authentication enables gameplay without a visible registration process.
-- ⏱️ **Synchronized Rounds:** Server-managed deadlines coordinate Discover, Deduce, and Final Vault.
-- 🏆 **Fair Scoring:** Server-side answer verification, score calculation, winner selection, and leaderboard generation.
-- 📡 **Realtime Updates:** WebSocket-based broadcasts, complemented by authoritative state polling to recover from missed updates.
-- 🔄 **Replay:** Players can restart the experience after completing a game.
-- 📱 **Responsive Interface:** Browser-based gameplay without a separate installation.
+- 🎮 **Real-Time Multiplayer:** Private rooms across browsers and devices.
+- 🔐 **Invisible Authentication:** Anonymous sessions without registration.
+- ⏱️ **Synchronized Rounds:** Server-managed deadlines across three rounds.
+- 🏆 **Fair Scoring:** Server-side verification, scoring and winner selection.
+- 📡 **Realtime Updates:** Broadcasts plus polling for state recovery.
+- 🔄 **Replay:** Restart after a completed game.
+- 📱 **Responsive Interface:** Browser-based, with no installation.
 
 #### 🏗️ Cloud Architecture
 
@@ -198,7 +198,7 @@ This separates user-interface rendering from trusted game-state transitions.
 
 **✅ Continuous Integration**
 
-The GitHub Actions CI workflow runs on pull requests and pushes to `main`:
+On pull requests and pushes to `main`:
 
 - Reproducible dependency installation using `npm ci`
 - TypeScript static checks
@@ -209,17 +209,17 @@ The GitHub Actions CI workflow runs on pull requests and pushes to `main`:
 
 **✅ Production Synthetic Monitoring**
 
-A separate GitHub Actions workflow runs scheduled, non-mutating production checks every hour and supports manual execution.
+Hourly, non-mutating production probes also support manual runs.
 
-It verifies:
+Checks cover:
 - The deployed frontend returns HTTP `200`.
 - The protected game API rejects unauthenticated access with HTTP `401`.
-- Probe durations and results are recorded.
-- Synthetic result artifacts are retained for 14 days.
+- Recorded probe durations and results.
+- Results retained for 14 days.
 
-The initial manually triggered production health workflow passed both checks.
+The initial manual run passed both endpoint checks.
 
-These probes verify specific endpoint behaviors; they are **not** a substitute for authenticated end-to-end gameplay testing, latency percentiles, or a formal availability SLO.
+Probe scope: endpoint behaviour; authenticated gameplay and formal availability SLOs require separate verification.
 
 [![View Production Health](https://img.shields.io/badge/View-Production_Health-00897B?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/sampeter-akan/vault-five/actions/workflows/production-health.yml)
 
@@ -234,22 +234,22 @@ These probes verify specific endpoint behaviors; they are **not** a substitute f
 
 #### 🛡️ Security & Reliability Engineering
 
-- **Server-authoritative state:** Clients submit actions, not trusted scores or victory declarations.
-- **Identity-aware access:** JWT validation and room membership checks enforce API permissions.
-- **Row Level Security:** PostgreSQL policies support protected data access.
-- **Secret isolation:** Vault combination and service credentials are kept outside the frontend.
-- **State recovery:** Periodic authoritative state reads help clients recover when Realtime notifications are missed.
-- **Incident-driven improvements:** Multiplayer testing exposed authentication, synchronization, feedback, and winner-attribution issues that were investigated and corrected.
+- **Server-authoritative state:** Backend validates actions and outcomes.
+- **Identity-aware access:** JWT and room-membership checks.
+- **Row Level Security:** Room-scoped database policies.
+- **Secret isolation:** Credentials and vault secrets stay outside the frontend.
+- **State recovery:** Authoritative reads reconcile missed updates.
+- **Incident-driven improvements:** Testing informed authentication, synchronisation and winner-attribution fixes.
 
 #### 📚 Engineering Lessons
 
-VAULT FIVE reinforced several important principles:
+Key design lessons:
 
-1. **Distributed state must have a trusted authority.** Browser clients cannot independently decide round outcomes.
-2. **Realtime delivery needs a recovery mechanism.** Broadcast notifications are complemented by state reconciliation.
-3. **Security boundaries must be explicit.** Authentication, authorization, validation, and secrets belong in trusted backend services.
-4. **Deployment is only one part of delivery.** Automated checks, incident investigation, and operational documentation improve maintainability.
-5. **Reliability claims require evidence.** Production probes, multiplayer walkthroughs, and architectural tests serve different verification purposes.
+1. **Trusted authority:** Keep outcomes server-side.
+2. **Recovery:** Reconcile broadcasts with authoritative reads.
+3. **Boundaries:** Isolate identity, validation and secrets.
+4. **Operations:** Pair delivery with checks and runbooks.
+5. **Evidence:** Distinguish probes, gameplay tests and load tests.
 
 #### 🔭 Future Engineering Enhancements
 
@@ -281,7 +281,7 @@ VAULT FIVE reinforced several important principles:
 ### 🎬 Movies API — Microservices Research & Development Project
 **MSc DevOps & Cloud Computing Coursework**
 
-I designed and developed a **contract-first microservices-based Movies API** to demonstrate end-to-end API engineering, automated testing, and reproducible performance evaluation.
+A **contract-first Movies API** combining service design, automated testing and reproducible load evaluation.
 
 **Key Highlights:**
 - OpenAPI v3 contract-first design with full CRUD, RBAC, and error handling
@@ -298,7 +298,7 @@ I designed and developed a **contract-first microservices-based Movies API** to 
 ### 🚀 Credit Loan Calculator — Enterprise CI/CD Pipeline
 **MSc DevOps Module | Grade: 96% (Distinction)**
 
-I built a full-stack web application with a complete enterprise-grade CI/CD pipeline.
+A full-stack application with an automated build, test and delivery pipeline.
 
 **Key Highlights:**
 - Automated build, test, and deploy using Jenkins, Maven, Selenium, JUnit, and GitHub Actions
@@ -316,14 +316,14 @@ I built a full-stack web application with a complete enterprise-grade CI/CD pipe
 
 **MSc Course | Grade: 90% (Distinction)**
 
-I designed an empirical research proposal to deliver **evidence-based prioritization** of IEEE 802.11 features and WPA3 capabilities for dense, multi-AP environments.
+An empirical research proposal prioritising **IEEE 802.11 and WPA3 capabilities** for campus and public Wi-Fi.
 
 **Research Scope:**
 - ⚡ Performance benchmarking in high-density scenarios
 - 🚶 Roaming & handover resilience for latency-sensitive applications
 - 🛡️ Security evaluation — WPA2-to-WPA3 migration and management frame protection
 
-**Key Deliverable:** Prioritized deployment roadmap for secure cloud-edge networking and zero-trust access.
+**Key Deliverable:** Evidence-led deployment priorities for secure, resilient networking.
 
 📂 **[View Repository](https://github.com/sampeter-akan/empirical_research_proposal_paper)**  
 📄 **[Full PDF Proposal](https://github.com/sampeter-akan/empirical_research_proposal_paper/blob/main/docs/DLMARM01-01-ARM2.pdf)**
@@ -333,7 +333,7 @@ I designed an empirical research proposal to deliver **evidence-based prioritiza
 ### ☁️ HomeStayGrid ML Recommender Feed — AWS Cloud ML Deployment
 **MSc Cloud Computing Project | Grade: 84% (Good / 2.0)**
 
-I designed and deployed a **cloud-native ML recommender system** for power grid operations. The prototype analyzes grid assets and generates prioritized risk-based maintenance recommendations to support predictive reliability management.
+An **AWS-deployed ML prototype** ranking grid assets by outage risk to support maintenance prioritisation.
 
 **Built With:**
 - Python 3.11, scikit-learn, pandas, joblib
@@ -347,7 +347,7 @@ I designed and deployed a **cloud-native ML recommender system** for power grid 
 - Containerized and deployed the service to AWS Elastic Beanstalk
 - Comprehensive documentation and operational considerations
 
-**Why this project matters:** It bridges my 20+ years of grid operations experience with modern cloud and machine learning technologies.
+**Why this project matters:** Applies transmission-domain knowledge to cloud-delivered ML recommendations.
 
 📂 **[View Repository](https://github.com/sampeter-akan/homestaygrid_ml_recommender_feed)**  
 📄 **[Project Report](https://github.com/sampeter-akan/homestaygrid_ml_recommender_feed/blob/main/docs/Task2_Project_Report_HomeStayGrid.md)**
@@ -382,4 +382,4 @@ I designed and deployed a **cloud-native ML recommender system** for power grid 
 - **Email:** samuelakanimo@hotmail.com
 - **LinkedIn:** [linkedin.com/in/samuel-peter-5117223b](https://www.linkedin.com/in/samuel-peter-5117223b)
 
-**Let’s connect** if you’re building resilient, secure, and intelligent systems where operational excellence meets modern cloud and automation.
+**Let’s connect** to build reliable systems that address practical operational needs.
