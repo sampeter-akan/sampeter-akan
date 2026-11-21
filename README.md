@@ -1,19 +1,14 @@
 # Samuel Peter
 
-**DevOps & Cloud Engineer | Critical Infrastructure & Reliability**
+**DevOps & Cloud Engineer | Solution Architecture & Operational Leadership**
 
-With over 20+ years as Principal Manager in critical national infrastructure at the Transmission Company of Nigeria, I bring deep expertise in high-reliability systems, operational excellence, and secure environments.
+Principal Manager at the **Transmission Company of Nigeria**, with **20+ years of transmission operations experience** spanning cross-functional leadership, incident coordination, and government and stakeholder engagement.
 
-I am currently pursuing an **MSc in DevOps & Cloud Computing** at IU International University of Applied Sciences, with strong results:
+I translate practical operational and enterprise needs into deployed software, combining cloud engineering, workflow automation and reliability-led solution design. My work spans energy intelligence, distributed applications and delivery planning, supported by source code, architecture documentation and testing evidence.
 
-- DevOps – **96% (Distinction)**
-- Project: Design Thinking – **95% (Distinction)**
-- Advanced Research Methods – **90% (Distinction)**
-- Cloud Computing Project – **84% (Good)**
+Bringing operational leadership and hands-on engineering to **Solution Architecture Lead, DevOps, Cloud and Reliability opportunities**.
 
-My GitHub showcases practical CI/CD pipelines, cloud-native ML deployment, infrastructure automation, and domain-driven projects such as **GridPulse Enterprise™** (a global multi-region SCADA/EMS telemetry suite with Gemini AI dispatch intelligence, Doppler radar horizons, and Duval Triangle DGA asset health across ENTSO-E, NERC, National Grid, and WAPP grid codes).
-
-📂 **[View Personal Portfolio Website](https://samuelpeter.dev)**
+📂 **[Explore my portfolio, live applications and architecture evidence](https://samuelpeter.dev)**
 
 ---
 
