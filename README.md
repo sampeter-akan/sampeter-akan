@@ -6,7 +6,7 @@ Principal Manager at the **Transmission Company of Nigeria**, with **20+ years o
 
 I translate practical operational and enterprise needs into deployed software, combining cloud engineering, workflow automation and reliability-led solution design. My work spans energy intelligence, distributed applications and delivery planning, supported by source code, architecture documentation and testing evidence.
 
-I Bring operational leadership and hands-on engineering to **Solution Architecture Lead, DevOps, Cloud and Reliability roles**.
+I bring operational leadership and hands-on engineering to **Solution Architecture Lead, DevOps, Cloud and Reliability roles**.
 
 📂 **[Explore my portfolio, live applications and architecture evidence](https://samuelpeter.dev)**
 
