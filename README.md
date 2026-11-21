@@ -357,10 +357,14 @@ An **AWS-deployed ML prototype** ranking grid assets by outage risk to support m
 ## 🎓 Education
 
 - **MSc DevOps & Cloud Computing** – IU International University of Applied Sciences, Germany (Ongoing)  
-  Current GPA: **80.5%**
+  Current GPA: **80.5%**  
+  DevOps · **96%**; Research Methods · **90%**; Cloud Project · **84%**; Project: Design Thinking · **95%**
 
 - **BSc (Hons) Computing & IT** – University of Derby, UK (2020)  
   **First Class Honours**
+
+- **BTEC Level 5 HND Diploma in Computing and Systems Development (QCF)** – Pearson RDI, UK (2014)  
+  United Kingdom
 
 ---
 
