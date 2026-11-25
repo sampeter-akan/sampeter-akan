@@ -16,6 +16,18 @@ I bring operational leadership and hands-on engineering to **Solution Architectu
 
 ---
 
+### 📊 [Annual Evaluation Performance App](https://annual-evaluation-performance-app.vercel.app/)
+**Enterprise Staff Appraisal & Policy Weighting Decision Simulator** | [Live App](https://annual-evaluation-performance-app.vercel.app/) · [Source Code](https://github.com/sampeter-akan/annual-evaluation-performance-app)
+
+<a href="https://annual-evaluation-performance-app.vercel.app/">
+  <img src="https://raw.githubusercontent.com/sampeter-akan/annual-evaluation-performance-app/main/public/enterprise-annual-performance-app-cover-1500x1000.jpg" alt="Annual Evaluation Performance App Preview" width="100%" />
+</a>
+
+* **Overview:** Interactive enterprise staff appraisal platform and decision-support simulator engineered for CHROs, People Operations Directors, Compensation Committees, and Fortune 500 Talent Acquisition Teams to replace static spreadsheet reviews with an auditable policy modeling engine.
+* **Key Capabilities:** Real-time **Category Relative Weighting Simulator** (`Section A` conduct vs. `Section B` duty performance) with dynamic N/A exclusion, **10-Axis SVG Competency Radar** with peer overlay benchmarking, automated **Part IV Increment & Promotability Decision Engine** with executive override, and print-ready official PDF appraisal reporting.
+* **Tech Stack:** React 18, Vite 5, Tailwind CSS 3, bespoke SVG telemetry, browser `localStorage` persistence, and automated CI/CD deployment on Vercel.
+---
+
 ### 🚀T-Minus Countdown: Cloud Architecture Audit *(New)*
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-Vercel-F59E0B?style=flat-square&logo=vercel&logoColor=14161A)](https://cloud-architecture-audit-app.vercel.app/)
