@@ -21,6 +21,7 @@ I bring operational leadership and hands-on engineering to **Solution Architectu
   <img src="https://raw.githubusercontent.com/sampeter-akan/annual-evaluation-performance-app/main/public/enterprise-annual-performance-app-cover-1500x1000.jpg" alt="Annual Evaluation Performance App Preview" width="100%" />
 </a>
 
+
 * **Overview:** Interactive enterprise staff appraisal platform and decision-support simulator engineered for CHROs, People Operations Directors, Compensation Committees, and Fortune 500 Talent Acquisition Teams to replace static spreadsheet reviews with an auditable policy modeling engine.
 * **Key Capabilities:** Real-time **Category Relative Weighting Simulator** (`Section A` conduct vs. `Section B` duty performance) with dynamic N/A exclusion, **10-Axis SVG Competency Radar** with peer overlay benchmarking, automated **Part IV Increment & Promotability Decision Engine** with executive override, and print-ready official PDF appraisal reporting.
 * **Tech Stack:** React 18, Vite 5, Tailwind CSS 3, bespoke SVG telemetry, browser `localStorage` persistence, and automated CI/CD deployment on Vercel.
