@@ -14,8 +14,6 @@ I bring operational leadership and hands-on engineering to **Solution Architectu
 
 ## 💼 Featured Projects
 
----
-
 ### 📊 [Annual Evaluation Performance App](https://annual-evaluation-performance-app.vercel.app/)
 **Enterprise Staff Appraisal & Policy Weighting Decision Simulator** | [Live App](https://annual-evaluation-performance-app.vercel.app/) · [Source Code](https://github.com/sampeter-akan/annual-evaluation-performance-app)
 
